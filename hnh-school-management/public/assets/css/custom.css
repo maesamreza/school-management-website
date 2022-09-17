@@ -1,3 +1,34 @@
+@font-face {
+    font-family: "interregular";
+    src: url(../font/static/Inter-Regular.ttf);
+  }
+  @font-face {
+    font-family: "interregular-bold";
+    src: url(../font/static/Inter-ExtraBold.ttf);
+  }
+  @font-face {
+    font-family: "interregular-light";
+    src: url(../font/static/Inter-Light.ttf);
+  }
+  
+  *{
+    font-family: "interregular";
+  }
+
+  
+  @media(max-width: 768px){
+    .home_first_section_heading{
+        font-size: 36px !important;
+        line-height: 34px !important;
+    }
+    #home_first_section{
+        margin-top: 130px !important;
+    }
+    .home_img_main{
+        margin-top: 40px !important;
+    }
+}
+
 .category_icon{
     font-size: 32px;
     color: #E40C5B;
@@ -31,31 +62,31 @@
 /* home_first_section start */
 
 
-.first-section-container{
+/* .first-section-container{
     border: 1px solid transparent;
-    /* dont remove this border8 */
-}
+    dont remove this border
+} */
 #home_first_section{
-    margin-top: 170px;
+    margin-top: 200px;
 }
 .home_first_section_heading{
     font-size: 48px;
     line-height: 48px;
     color: #000;
     font-family: "interregular-bold";
-    font-weight: bold;
+    font-weight: bolder;
 }
 .buy_btn{
     color: #fff;
     background-color: #E40C5B;
-    padding: 13px 25px;
+    padding: 16px 28px;
     border-radius: 6px;
     font-family: "interregular";
 }
 .live_btn{
     color: #fff;
     background-color: #4C2D8C;
-    padding: 13px 25px;
+    padding: 16px 28px;
     border-radius: 6px;
     font-family: "interregular";
 }
@@ -65,4 +96,160 @@
     line-height: 28px;
     text-align: justify;
     font-family: "interregular";
+}
+
+/* home section end */
+
+
+.powerful_heading{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #E40C5B;
+    font-family: "interregular";
+    font-weight: bolder;
+}
+.better_heading{
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 0.9px;
+    color: #000;
+    font-weight: bold !important;
+    font-family: "interregular-bold" !important;
+}
+.powerful_para{
+    color: #71717A;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+    font-family: "interregular";
+}
+
+
+/* card start */
+
+
+.every_card_heading{
+    font-family: "interregular-light";
+    font-size: 18px;;
+    line-height: 24px;
+    color: #000;
+}
+.every_card_para{
+    font-family: "interregular";
+    font-size: 16px;;
+    line-height: 24px;
+    color: #71717A;
+}
+
+/* card section end */
+
+
+
+/* ready section start */
+
+.ready_text{
+    font-family: "interregular-bold";
+    font-size: 36px;;
+    line-height: 40px;
+    letter-spacing: -0.9px;
+    color: #18181B;
+}
+.check_text{
+    font-family: "interregular-bold";
+    font-size: 24px;;
+    line-height: 32px;
+    letter-spacing: -0.9px;
+    color: #18181B;
+}
+.feature_btn{
+    color: #fff;
+    background-color: #E40C5B;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-family: "interregular";
+    border: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.feature_btn:hover{
+    background-color: #F32470;
+}
+
+
+/* amazing section start */
+
+
+.amazing_para{
+    font-family: "interregular";
+    font-size: 24px;;
+    line-height: 36px;
+    color: #18181B;
+    font-weight: 500;
+}
+.instikit-logo{
+    max-width: 18%;
+}
+.saifullah{
+    font-family: "interregular";
+    font-size: 16px;;
+    line-height: 24px;
+    color: #18181B;
+    font-weight: 400;
+}
+.slash{
+    font-family: "interregular-bold";
+    font-weight: bold;
+    color: #E40C5B;
+    font-size: 23px;
+}
+.trainer{
+    font-family: "interregular";
+    font-size: 16px;;
+    line-height: 24px;
+    color: #71717A;
+}
+
+
+.convinced_section{
+    background-color: #312E81;
+    margin-top: 70px;
+}
+.convinced_heading{
+    color: #fff;
+    font-family: "interregular";
+    font-size: 36px;;
+    line-height: 40px;
+}
+.convinced_para{
+    color: #C7D2FE;
+    font-family: "interregular";
+    font-size: 18px;;
+    line-height: 24px;
+}
+.convinced_btn{
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-family: "interregular";
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #E40C5B;
+    border: 1px solid #E40C5B;
+    background-color: #fff;
+}
+.convinced_btn:hover{
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-family: "interregular";
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #E40C5B;
 }
