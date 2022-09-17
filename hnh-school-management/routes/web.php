@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () { return view('pages.index');});
 Route::get('/pricing', function () { return view('pages.pricing');});
+Route::get('/feature-request', function () { return view('pages.feature-request');});
+Route::get('/support', function () { return view('pages.support');});
