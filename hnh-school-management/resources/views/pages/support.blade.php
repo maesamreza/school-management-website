@@ -24,7 +24,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        opacity: 0.7;
+        opacity: 0.9;
         mix-blend-mode: multiply;
 
     }
@@ -38,6 +38,54 @@
         font-size: 3.75rem;
         font-weight: 800;
     }
+
+
+    /* convinced_section start */
+
+.convinced_section{
+    background-color: #312E81;
+    margin-top: 70px;
+}
+.convinced_heading{
+    color: #fff;
+    font-family: "interregular";
+    font-size: 36px;;
+    line-height: 40px;
+}
+.convinced_para{
+    color: #C7D2FE;
+    font-family: "interregular";
+    font-size: 18px;;
+    line-height: 24px;
+}
+.convinced_btn{
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-family: "interregular";
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #E40C5B;
+    border: 1px solid #E40C5B;
+    background-color: #fff;
+}
+.convinced_btn:hover{
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-family: "interregular";
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #E40C5B;
+}
+
+    /* convinced_section start */
+
+
     </style>
 
 <section>
@@ -60,7 +108,7 @@ Looking for Support?</h1>
 
     </div>
     <div class="row my-5">
-        <div class="col-lg-6 my-4 d-flex align-items-center">
+        <div class="col-lg-6 my-4 d-flex align-items-start">
             <img src="{{asset('assets/img/chose/03.png')}}" alt="">
             <div class="ms-2">
                 <h5 class="mb-2">Read Documentation</h5>
@@ -68,7 +116,7 @@ Looking for Support?</h1>
 
             </div>
         </div>
-        <div class="col-lg-6 my-4 d-flex align-items-center">
+        <div class="col-lg-6 my-4 d-flex align-items-start">
             <img src="{{asset('assets/img/chose/03.png')}}" alt="">
             <div class="ms-2">
                 <h5 class="mb-2">Send us an Email</h5>
@@ -78,7 +126,7 @@ Looking for Support?</h1>
         </div>
 
 
-        <div class="col-lg-6 my-4 d-flex align-items-center">
+        <div class="col-lg-6 my-4 d-flex align-items-start">
             <img src="{{asset('assets/img/chose/03.png')}}" alt="">
             <div class="ms-2">
                 <h5 class="mb-2">Send Skype Message</h5>
@@ -87,7 +135,7 @@ Looking for Support?</h1>
             </div>
         </div>
 
-        <div class="col-lg-6 my-4 d-flex align-items-center">
+        <div class="col-lg-6 my-4 d-flex align-items-start">
             <img src="{{asset('assets/img/chose/03.png')}}" alt="">
             <div class="ms-2">
                 <h5 class="mb-2">Send WhatsApp Message</h5>
@@ -97,6 +145,40 @@ Looking for Support?</h1>
         </div>
     </div>
 </div>
+
+
+
+
+   {{-- Convinced section start --}}
+
+
+   <section class="convinced_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="py-5">
+                    <h1 class="text-center convinced_heading">
+                        Convinced? Let's proceed to buy. <br>
+                        Start using InstiKit today!
+                    </h1>
+                    <p class="text-center convinced_para mt-4">
+                        We’d love to hear from you. Call 8-3055-7055-8 to get in touch or send <br> us email to hello@scriptmint.com
+                    </p>
+                    <button class="convinced_btn mb-3 mt-5">
+                        Buy Now!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>                                    
+</section>
+
+
+
+{{-- Convinced section end --}}
+
+
+
 
 
 @endsection

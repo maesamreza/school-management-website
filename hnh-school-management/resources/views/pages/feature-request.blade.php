@@ -24,7 +24,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        opacity: 0.7;
+        opacity: 0.9;
         mix-blend-mode: multiply;
 
     }

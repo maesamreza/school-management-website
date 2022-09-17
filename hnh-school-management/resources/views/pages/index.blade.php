@@ -82,7 +82,7 @@
 
 
 
-                        <div class="row mt-5">
+                        {{-- <div class="row mt-5">
                             <div class="col-md-6">
                                 <div class="row">
                                     <div class="col-md-2 col-sm-2">
@@ -116,11 +116,6 @@
                                 </div>
                             </div>
                         </div>
-
-
-                        {{--  --}}
-
-
 
                         <div class="row mt-4">
                             <div class="col-md-6">
@@ -157,13 +152,6 @@
                             </div>
                         </div>
 
-
-
-                        {{--  --}}
-
-
-
-
                         <div class="row mt-4">
                             <div class="col-md-6">
                                 <div class="row">
@@ -195,6 +183,67 @@
                                             InstiKit offers tons of functionality at very affordable cost. All the versions are available for Lifetime validity on one time purchase.
                                         </p>
                                     </div>
+                                </div>
+                            </div>
+                        </div> --}}
+
+
+
+
+
+                        <div class="row my-5">
+                            <div class="col-lg-6 my-4 d-flex align-items-start">
+                                <img src="{{asset('assets/img/chose/03.png')}}" alt="">
+                                <div class="ms-2">
+                                    <h5 class="mb-2 every_card_heading">Everything You Need</h5>
+                                    <p class="every_card_para">InstiKit covers each & every aspect of school operation. You can manage everything from reception to students & staff to accounting.</p>
+                    
+                                </div>
+                            </div>
+                            <div class="col-lg-6 my-4 d-flex align-items-start">
+                                <img src="{{asset('assets/img/chose/03.png')}}" alt="">
+                                <div class="ms-2">
+                                    <h5 class="mb-2 every_card_heading">Accessible for Every Role</h5>
+                                    <p class="every_card_para">InstiKit is designed for different users of the school. Admin, Staff, Accountant, Student, Parent every one can access ERP.</p>
+                    
+                                </div>
+                            </div>
+                    
+                    
+                            <div class="col-lg-6 my-4 d-flex align-items-start">
+                                <img src="{{asset('assets/img/chose/03.png')}}" alt="">
+                                <div class="ms-2">
+                                    <h5 class="mb-2 every_card_heading">Easy to Use</h5>
+                                    <p class="every_card_para">InstiKit can be set up in few minutes. The super simple & easy interface helps users to quickly understand & used-to with the ERP.</p>
+                    
+                                </div>
+                            </div>
+                    
+                            <div class="col-lg-6 my-4 d-flex align-items-start">
+                                <img src="{{asset('assets/img/chose/03.png')}}" alt="">
+                                <div class="ms-2">
+                                    <h5 class="mb-2 every_card_heading">Reliable & Secure</h5>
+                                    <p class="every_card_para">Schools are using InstiKit real-time to manage their operations for multiple years. It is built with Latest Technology, always up-to-date.</p>
+                    
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-6 my-4 d-flex align-items-start">
+                                <img src="{{asset('assets/img/chose/03.png')}}" alt="">
+                                <div class="ms-2">
+                                    <h5 class="mb-2 every_card_heading">White-label & Managed</h5>
+                                    <p class="every_card_para">InstiKit is complete white-label ERP Solution & Managed. Let us take care of technical things while you take care of school operation.</p>
+                    
+                                </div>
+                            </div>
+                    
+                            <div class="col-lg-6 my-4 d-flex align-items-start">
+                                <img src="{{asset('assets/img/chose/03.png')}}" alt="">
+                                <div class="ms-2">
+                                    <h5 class="mb-2 every_card_heading">Affordable</h5>
+                                    <p class="every_card_para">InstiKit offers tons of functionality at very affordable cost. All the versions are available for Lifetime validity on one time purchase.</p>
+                    
                                 </div>
                             </div>
                         </div>

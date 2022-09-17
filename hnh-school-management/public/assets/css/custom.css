@@ -213,6 +213,8 @@
 }
 
 
+/* convinced_section start */
+
 .convinced_section{
     background-color: #312E81;
     margin-top: 70px;
@@ -253,3 +255,5 @@
     border: 1px solid #fff;
     background-color: #E40C5B;
 }
+
+    /* convinced_section start */
