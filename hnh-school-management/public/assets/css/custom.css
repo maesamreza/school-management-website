@@ -1,0 +1,68 @@
+.category_icon{
+    font-size: 32px;
+    color: #E40C5B;
+    margin-bottom: 15px;
+    font-family: "interregular";
+}
+.learn-text{
+    color: #E40C5B;
+    font-size: 14px;
+}
+.pro-card-text{
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "interregular";
+}
+.pro-card-heading{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "interregular";
+}
+.pro-card-bg{
+    transition: 0.1s;
+    padding: 10px 10px;
+    border-radius: 6px;
+}
+.pro-card-bg:hover{
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+/* home_first_section start */
+
+
+.first-section-container{
+    border: 1px solid transparent;
+    /* dont remove this border8 */
+}
+#home_first_section{
+    margin-top: 170px;
+}
+.home_first_section_heading{
+    font-size: 48px;
+    line-height: 48px;
+    color: #000;
+    font-family: "interregular-bold";
+    font-weight: bold;
+}
+.buy_btn{
+    color: #fff;
+    background-color: #E40C5B;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-family: "interregular";
+}
+.live_btn{
+    color: #fff;
+    background-color: #4C2D8C;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-family: "interregular";
+}
+.home_first_section_text{
+    color: #71717A;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+    font-family: "interregular";
+}
