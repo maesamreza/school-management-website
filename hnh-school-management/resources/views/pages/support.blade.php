@@ -61,7 +61,7 @@ Looking for Support?</h1>
     </div>
     <div class="row my-5">
         <div class="col-lg-6 my-4 d-flex align-items-center">
-            <img src="{{asset('assets/img/chose/03.png')}}" alt="">
+            <img src="{{asset('assets/img/chose/01.png')}}" alt="">
             <div class="ms-2">
                 <h5 class="mb-2">Read Documentation</h5>
                 <p>Read the documentation carefully, Search for the terms you would like to get result.</p>
@@ -69,7 +69,7 @@ Looking for Support?</h1>
             </div>
         </div>
         <div class="col-lg-6 my-4 d-flex align-items-center">
-            <img src="{{asset('assets/img/chose/03.png')}}" alt="">
+            <img src="{{asset('assets/img/chose/02.png')}}" alt="">
             <div class="ms-2">
                 <h5 class="mb-2">Send us an Email</h5>
                 <p>Didn't find any documentation, Send us an email to hello@scriptmint.com.</p>
@@ -88,7 +88,7 @@ Looking for Support?</h1>
         </div>
 
         <div class="col-lg-6 my-4 d-flex align-items-center">
-            <img src="{{asset('assets/img/chose/03.png')}}" alt="">
+            <img src="{{asset('assets/img/chose/04.png')}}" alt="">
             <div class="ms-2">
                 <h5 class="mb-2">Send WhatsApp Message</h5>
                 <p>For any Sales or Support related query, you can WhatsApp us at +91 8-3055-7055-8</p>
