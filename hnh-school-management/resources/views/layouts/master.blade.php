@@ -53,7 +53,7 @@
 
 
     <div class="body-overlay"></div>
-    <main>
+    <main style="overflow-x: hidden;">
         @include('layouts.header')
         @yield('content')
         @include('layouts.footer')
