@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Zoomy - E-learning HTML5 Template</title>
+    <title>Hnh School Management System</title>
     <meta name="keywords" content="online education, e-learning, coaching, education, teaching, learning" />
     <meta name="description"
         content="Zoomy is a e-learnibg HTML template for all kinds of education, coaching, online education website" />

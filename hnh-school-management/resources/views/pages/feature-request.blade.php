@@ -39,6 +39,13 @@
             font-family: "interregular-bold";
         }
 
+        @media(max-width: 768px){
+
+            .plan-heading {
+            font-size: 2.5rem !important;
+        }
+        }
+
         .we-text {
             font-size: 18px;
             line-height: 24px;

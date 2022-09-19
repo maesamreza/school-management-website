@@ -56,6 +56,16 @@
             font-weight: bolder;
         }
 
+        @media(max-width: 768px) {
+
+            .reseller_heading {
+                font-size: 2.5rem;
+            }
+            .img_reseller{
+                margin-top: 25px; 
+            }
+        }
+
         .reseller_tagline {
             font-size: 20px;
             line-height: 28px;
@@ -102,14 +112,15 @@
 
         #lets_heading1 {
             font-size: 36px;
-            line-height: 40px;  
+            line-height: 40px;
             letter-spacing: -0.9px;
             color: #000;
             font-family: "interregular-bold";
         }
+
         .lets_para {
             font-size: 18px;
-            line-height: 28px;  
+            line-height: 28px;
             color: #71717A;
             font-family: "interregular";
         }
@@ -273,7 +284,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="img-fluid">
+                <div class="img-fluid img_reseller">
                     <img class="img-fluid" src="{{ asset('assets/img/reseller/reseller.jpeg') }}" alt="">
                 </div>
             </div>

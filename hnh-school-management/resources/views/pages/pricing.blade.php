@@ -132,6 +132,19 @@
             color: #181818;
             font-family: "interregular-bold";
         }
+        @media(max-width: 768px){
+            .check_btn{
+                margin: 0 auto;
+                /* width: 70%; */
+                display: block;
+                padding: 10px 20px;
+                justify-content: center !important;
+                margin-top: 15px;
+            }
+            .plan-heading {
+            font-size: 2.5rem;
+        }
+        }
     </style>
 
 
@@ -343,7 +356,7 @@
             <h1 class="text-center text-lg-start ms-lg-5 looking-text">Looking for Feature Comparison?</h1>
         </div>
         <div class="col-2">
-            <button class="btn theme_btn  mt-4 mt-lg-0">Check Here</button>
+            <button class="btn theme_btn check_btn">Check Here</button>
         </div>
 
     </div>

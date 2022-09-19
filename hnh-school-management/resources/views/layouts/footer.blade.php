@@ -9,12 +9,11 @@
           <div class="footer__widget mb-30">
             <div class="footer-log mb-20">
               <a href="index.html" class="logo">
-                <img src="{{asset('assets/img/logo/header_logo_one.svg')}}" alt="" />
+                <img width="70%" src="{{asset('assets/img/logo/logo1.png')}}" alt="" />
               </a>
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadip scing elitr, sed di
-              nonumy eirmod temporinvi dunt ut labore lorem ipsum.
+              Hnh Tech Solutions is registered trademark of ScriptMint.
             </p>
             <div class="social-media footer__social mt-30">
               <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -29,14 +28,14 @@
           data-wow-delay=".3s"
         >
           <div class="footer__widget mb-30 pl-40 pl-md-0 pl-xs-0">
-            <h6 class="widget-title mb-35">Contact us</h6>
+            <h6 class="widget-title mb-35">COMPANY</h6>
             <ul class="fot-list">
-              <li><a href="#">info@example.com</a></li>
-              <li><a href="#">+00 235 695 58</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">FAQ              </a></li>
+              <li><a href="#">Contact</a></li>
+              {{-- <li><a href="#">Privacy Policy</a></li>
               <li><a href="contact.html">Contacts</a></li>
-              <li><a href="#">Our Careers</a></li>
+              <li><a href="#">Our Careers</a></li> --}}
             </ul>
           </div>
         </div>
@@ -45,12 +44,12 @@
           data-wow-delay=".5s"
         >
           <div class="footer__widget mb-25 pl-90 pl-md-0 pl-xs-0">
-            <h6 class="widget-title mb-35">Quick Links</h6>
+            <h6 class="widget-title mb-35">LEGAL</h6>
             <ul class="fot-list">
-              <li><a href="about.html">About US</a></li>
-              <li><a href="#">Explore Pages</a></li>
-              <li><a href="#">Our Services</a></li>
-              <li><a href="#">Destinations</a></li>
+              <li><a href="about.html">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Refund Policy</a></li>
+              {{-- <li><a href="#">Destinations</a></li>   --}}
             </ul>
           </div>
         </div>
@@ -76,7 +75,7 @@
           <div class="col-lg-12">
             <div class="copyright text-center">
               <h5>
-                Copyright@ 2021 <a href="#">Zoomy</a>. All Rights Reserved
+                Copyright@ 2022 <a href="#">Hnh Tech Solutions</a>. All Rights Reserved
               </h5>
             </div>
           </div>

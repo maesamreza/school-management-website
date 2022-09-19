@@ -72,13 +72,18 @@
             color: #000;
              font-family: "interregular";
         }
+        @media(max-width: 768px){
+            .bg-pink{
+                padding-bottom: 15px;
+            }
+        }
     </style>
 
 
     <div class="container-fluid bg-light">
         <div class="container max-width p-5">
             <div class="row form-div">
-                <div class="col-lg-4 bg-pink ps-5">
+                <div class="col-lg-4 bg-pink ps-md-5">
                     <p class="h5 text-white mt-5 get_heading">Get in touch</p>
                     <p class="text-white mt-4 get_para">If you have any query/message or feedback, then please submit below
                         form. We
@@ -98,7 +103,7 @@
                         <i class="fa-brands fa-twitter text-white f-icon ms-3 my-3"></i>
                     </div>
                 </div>
-                <div class="col-lg-8 bg-white shadow-lg ps-5">
+                <div class="col-lg-8 bg-white shadow-lg ps-md-5">
                     <p class="h5 text-black mt-5 send">Send us a message</p>
                     <div class="row">
                         <div class="col-lg-6 my-2">

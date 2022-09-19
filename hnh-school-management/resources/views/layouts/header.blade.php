@@ -5,7 +5,7 @@
           <div class="col-xl-2 col-lg-2 col-5">
             <div class="logo">
               <a href="{{url('/')}}"
-                ><img src="{{asset('assets/img/logo/header_logo_one.svg')}}" alt=""
+                ><img width="90%" src="{{asset('assets/img/logo/logo1.png')}}" alt=""
               /></a>
             </div>
           </div>
@@ -278,10 +278,10 @@
           </ul>
         </li>
         <li><a href="{{url('pricing')}}">Pricing</a></li>
-        <li><a href="about.html">Feature Request</a></li>
-        <li><a href="about.html">Support</a></li>
-        <li><a href="about.html">Reseller</a></li>
-        <li><a href="about.html">Contact</a></li>
+        <li><a href="{{url('feature-request')}}">Feature Request</a></li>
+        <li><a href="{{url('support')}}">Support</a></li>
+        <li><a href="{{url('reseller')}}">Reseller</a></li>
+        <li><a href="{{url('contact')}}">Contact</a></li>
       </ul>
     </nav>
     <!-- side-mobile-menu end -->
