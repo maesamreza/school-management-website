@@ -4,7 +4,7 @@
         <div class="row align-items-center">
           <div class="col-xl-2 col-lg-2 col-5">
             <div class="logo">
-              <a href="index.html"
+              <a href="{{url('/')}}"
                 ><img src="{{asset('assets/img/logo/header_logo_one.svg')}}" alt=""
               /></a>
             </div>
@@ -143,11 +143,7 @@
                     <li class="nav-item active">
                       <a
                         class="nav-link dropdown-toggle"
-                        href="#"
-                        id="navbarDropdown2"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
+                        href="{{url('pricing')}}"
                       >
                         Pricing
                       </a>
@@ -156,11 +152,8 @@
                     <li class="nav-item dropdown">
                       <a
                         class="nav-link dropdown-toggle"
-                        href="#"
+                        href="{{url('feature-request')}}"
                         id="navbarDropdown3"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
                         >Feature Request</a
                       >
                     
@@ -168,11 +161,8 @@
                     <li class="nav-item dropdown">
                       <a
                         class="nav-link dropdown-toggle text-gray-500"
-                        href="#"
+                        href="{{url('support')}}"
                         id="navbarDropdown4"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
                       >
                         Support
                       </a>
@@ -181,20 +171,14 @@
                     <li class="nav-item">
                       <a
                         class="nav-link"
-                        href="contact.html"
-                        id="navbarDropdown5"
-                        role="button"
-                        aria-expanded="false"
+                        href="{{url('reseller')}}"
                         >Reseller</a
                       >
                     </li>
                     <li class="nav-item">
                       <a
                         class="nav-link"
-                        href="contact.html"
-                        id="navbarDropdown5"
-                        role="button"
-                        aria-expanded="false"
+                        href="{{url('contact')}}"
                         >Contact</a
                       >
                     </li>
@@ -293,7 +277,7 @@
             <li><a href="#">InstiKit Lite</a></li>
           </ul>
         </li>
-        <li><a href="about.html">Pricing</a></li>
+        <li><a href="{{url('pricing')}}">Pricing</a></li>
         <li><a href="about.html">Feature Request</a></li>
         <li><a href="about.html">Support</a></li>
         <li><a href="about.html">Reseller</a></li>

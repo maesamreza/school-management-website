@@ -1,6 +1,29 @@
 @extends('layouts.master')
 @section('content')
     <style>
+        /* *{
+                font-family: "interregular";
+            } */
+
+        @font-face {
+            font-family: "interregular";
+            src: url(../font/static/Inter-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: "interregular-bold";
+            src: url(../font/static/Inter-ExtraBold.ttf);
+        }
+
+        @font-face {
+            font-family: "interregular-light";
+            src: url(../font/static/Inter-Light.ttf);
+        }
+
+        * {
+            font-family: "interregular";
+        }
+
         .banner {
             background-image: url("{{ asset('assets/img/pricing/pricing-bg.jpeg') }}");
             width: 100%;
@@ -36,11 +59,15 @@
         .plan-heading {
             font-size: 3.75rem;
             font-weight: 800;
+            font-family: "interregular-bold";
         }
 
-        .price-tag-text {
-            font-size: .875rem;
-        }
+        /* .price-tag-text {
+                font-size: 20px;
+                line-height: 28px;
+                color: #E0E7FF;
+                font-family: "interregular";
+            } */
 
         .theme_btn_purple {
             background-color: #4c2d8c !important;
@@ -71,6 +98,40 @@
             min-height: 150px;
 
         }
+
+        .litetext {
+            font-size: 18px;
+            line-height: 24px;
+            color: #181818;
+        }
+
+        .litetext {
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.3px;
+            color: #181818;
+        }
+
+        .what-text {
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.3px;
+            color: #181818;
+        }
+
+        .card-list-text {
+            font-size: 14px;
+            line-height: 20px;
+            color: #71717A;
+        }
+
+        .looking-text {
+            font-size: 36px;
+            line-height: 40px;
+            letter-spacing: -0.9px;
+            color: #181818;
+            font-family: "interregular-bold";
+        }
     </style>
 
 
@@ -89,14 +150,14 @@
     <section>
 
         <div class="w-100 ms-md-5 pt-5">
-            <h1 class=" text-center">InstiKit is Affordable!</h1>
+            <h1 class="text-center ">InstiKit is Affordable!</h1>
             <p class="h5 text-center mt-3 px-1 px-lg-0">We are on a mission to offer best possible School ERP solution at a
                 affordable cost. Check out our pricing.</p>
         </div>
         <div class="row justify-content-evenly mt-md-5">
             <div class="col-lg-3 col-md-6 my-2 card rounded-3" style="width: 18rem;">
                 <div class="price-tag  p-3">
-                    <p class="h5 text-black my-2">InstiKit Lite</p>
+                    <p class="h5 text-black my-2 litetext litetext">InstiKit Lite</p>
                     <p class="price-tag-text my-2">Limited Feature School ERP, Suitable for School < 100 Students</p>
                             <h1 class="my-4">$0</h1>
                             <div class="d-flex justify-content-around">
@@ -107,23 +168,23 @@
                 </div>
                 <hr>
 
-                <p class="ms-2 text-black my-2 font-medium">WHAT'S INCLUDED
+                <p class="ms-2 text-black my-2 font-medium what-text">WHAT'S INCLUDED
                 </p>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Self Hosted License</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Self Hosted License</p>
                 </div>
-                <p class="ms-2 text-black mt-4 mb-2 font-medium">OPTIONAL
+                <p class="ms-2 text-black mt-4 mb-2 font-medium what-text">OPTIONAL
                 </p>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> 12 Month of Support @ $149</p>
+                    <p class="ms-3 price-tag-text card-list-text"> 12 Month of Support @ $149</p>
                 </div>
 
             </div>
             <div class="col-lg-3 col-md-6 my-2 card rounded-3" style="width: 18rem;">
                 <div class="price-tag p-3">
-                    <p class="h5 text-black my-2">InstiKit Lite</p>
+                    <p class="h5 text-black my-2 litetext">InstiKit Lite</p>
                     <p class="price-tag-text my-2">Standard Feature School ERP, Suitable for School < 500 Students</p>
                             <h1 class="my-4">$19</h1>
                             <div class="d-flex justify-content-around">
@@ -134,34 +195,34 @@
                 </div>
                 <hr>
 
-                <p class="ms-2 text-black my-2 font-medium">WHAT'S INCLUDED
+                <p class="ms-2 text-black my-2 font-medium what-text">WHAT'S INCLUDED
                 </p>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Self Hosted License</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Self Hosted License</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Single Instance</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Single Instance</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> White Label Solution</p>
+                    <p class="ms-3 price-tag-text card-list-text"> White Label Solution</p>
                 </div>
-                <p class="ms-2 text-black mt-4 mb-2 font-medium">OPTIONAL
+                <p class="ms-2 text-black mt-4 mb-2 font-medium what-text">OPTIONAL
                 </p>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Free Installation (Extended License)</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Free Installation (Extended License)</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> 12 Month of Support @ $149</p>
+                    <p class="ms-3 price-tag-text card-list-text"> 12 Month of Support @ $149</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 my-2 card rounded-3" style="width: 18rem;">
                 <div class="price-tag p-3">
-                    <p class="h5 text-black my-2">InstiKit Lite</p>
+                    <p class="h5 text-black my-2 litetext">InstiKit Lite</p>
                     <p class="price-tag-text my-2">Premium Feature School ERP, Suitable for School > 500 Students</p>
                     <h1 class="my-4">$49</h1>
                     <div class="d-flex justify-content-around">
@@ -172,46 +233,46 @@
                 </div>
                 <hr>
 
-                <p class="ms-2 text-black my-2 font-medium">WHAT'S INCLUDED
+                <p class="ms-2 text-black my-2 font-medium what-text">WHAT'S INCLUDED
                 </p>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Self Hosted License</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Self Hosted License</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Single Instance</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Single Instance</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> White Label Solution</p>
+                    <p class="ms-3 price-tag-text card-list-text"> White Label Solution</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Free Installation</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Free Installation</p>
                 </div>
-                <p class="ms-2 text-black mt-4 mb-2 font-medium">OPTIONAL
+                <p class="ms-2 text-black mt-4 mb-2 font-medium what-text">OPTIONAL
                 </p>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Server Pre-requisite Setup (Developer License)</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Server Pre-requisite Setup (Developer License)</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Pre-populated Demo Data (Developer License)</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Pre-populated Demo Data (Developer License)</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> 12 Month of Support @ $149</p>
+                    <p class="ms-3 price-tag-text card-list-text"> 12 Month of Support @ $149</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Developer License (Unlimited Instances) @ $1499</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Developer License (Unlimited Instances) @ $1499</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 my-2 card rounded-3" style="width: 18rem;">
                 <div class="price-tag p-3">
-                    <p class="h5 text-black my-2">InstiKit Lite</p>
+                    <p class="h5 text-black my-2 litetext">InstiKit Lite</p>
                     <p class="price-tag-text my-2">Multi School ERP SaaS based Solution, Suitable for Resellers</p>
                     <h1 class="my-4">$299</h1>
                     <div class="d-flex justify-content-around">
@@ -223,52 +284,52 @@
                 <hr>
 
 
-                <p class="ms-2 text-black my-2 font-medium">WHAT'S INCLUDED
+                <p class="ms-2 text-black my-2 font-medium what-text">WHAT'S INCLUDED
                 </p>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Self Hosted License</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Self Hosted License</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Single Instance</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Single Instance</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> White Label Solution</p>
+                    <p class="ms-3 price-tag-text card-list-text"> White Label Solution</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Free Installation</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Free Installation</p>
                 </div>
 
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Server Pre-requisite Setup</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Server Pre-requisite Setup</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text">Pre-populated Demo Data</p>
+                    <p class="ms-3 price-tag-text card-list-text">Pre-populated Demo Data</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Admin Interface</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Admin Interface</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> Accept Online Payment</p>
+                    <p class="ms-3 price-tag-text card-list-text"> Accept Online Payment</p>
                 </div>
-                <p class="ms-2 text-black mt-4 mb-2 font-medium">OPTIONAL
+                <p class="ms-2 text-black mt-4 mb-2 font-medium what-text">OPTIONAL
                 </p>
 
 
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text"> 12 Month of Support @ $699</p>
+                    <p class="ms-3 price-tag-text card-list-text"> 12 Month of Support @ $699</p>
                 </div>
                 <div class="d-flex my-2 align-items-center ms-3">
                     <i class="fa-solid fa-check"></i>
-                    <p class="ms-3 price-tag-text">Developer License (Unlimited Instances) @ $2999</p>
+                    <p class="ms-3 price-tag-text card-list-text">Developer License (Unlimited Instances) @ $2999</p>
                 </div>
 
             </div>
@@ -279,7 +340,7 @@
     <div class="looking-for-feature row justify-content-around align-items-center mt-5 py-5">
 
         <div class="col-lg-8">
-            <h1 class="text-center text-lg-start ms-lg-5">Looking for Feature Comparison?</h1>
+            <h1 class="text-center text-lg-start ms-lg-5 looking-text">Looking for Feature Comparison?</h1>
         </div>
         <div class="col-2">
             <button class="btn theme_btn  mt-4 mt-lg-0">Check Here</button>

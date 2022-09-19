@@ -1,6 +1,21 @@
 @extends('layouts.master')
 @section('content')
     <style>
+        @font-face {
+            font-family: "interregular";
+            src: url(../font/static/Inter-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: "interregular-bold";
+            src: url(../font/static/Inter-ExtraBold.ttf);
+        }
+
+        @font-face {
+            font-family: "interregular-light";
+            src: url(../font/static/Inter-Light.ttf);
+        }
+
         .banner {
             background-image: url("{{ asset('assets/img/pricing/pricing-bg.jpeg') }}");
             width: 100%;
@@ -77,14 +92,35 @@
             color: #71717A;
             font-family: "interregular";
         }
+
+        .form-control:focus {
+            outline: none;
+            border: none;
+            box-shadow: 0 0 0 2.5px #e40c5b;
+
+        }
+
+        #lets_heading1 {
+            font-size: 36px;
+            line-height: 40px;  
+            letter-spacing: -0.9px;
+            color: #000;
+            font-family: "interregular-bold";
+        }
+        .lets_para {
+            font-size: 18px;
+            line-height: 28px;  
+            color: #71717A;
+            font-family: "interregular";
+        }
     </style>
 
 
     <section>
         <div class="banner">
             <div class="w-100 ms-md-5 pt-5">
-                <h1 class="text-white plan-heading text-center text-md-start reseller_heading">Reseller Program</h1>
-                <p class="h5 text-white text-center text-md-start mt-3">All about Reseller Program and its benefit!</p>
+                <h1 class="text-white plan-heading text-md-start reseller_heading">Reseller Program</h1>
+                <p class="h5 text-white text-md-start mt-3">All about Reseller Program and its benefit!</p>
             </div>
             <div class="absolute inset-0 bg-primary mix-blend-multiply" aria-hidden="true"></div>
         </div>
@@ -181,10 +217,66 @@
                 </div>
             </div>
 
-
-
-
         </div>
 
+    </div>
+
+
+    {{-- form section --}}
+
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form_container mx-auto">
+                    <div class="pt-5">
+                        <h1 id="lets_heading1">Let's work together!</h1>
+                        <p class="mt-3 px-1 px-lg-0 lets_para">There is no full time commitment, You can become
+                            our Authorised Reseller and setup your own School ERP Solution powered by ScriptMint.</p>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-md-6 my-2">
+                            <label for="firstname" class="form-label">First Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6 my-2">
+                            <label for="last name" class="form-label">Last Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                    </div>
+                    <div class="col my-2">
+                        <label for="last name" class="form-label">Company Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col my-2">
+                        <label for="last name" class="form-label">Email</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col my-2">
+                        <label for="last name" class="form-label">Phone</label>
+                        <input type="number" class="form-control">
+
+                    </div>
+
+                    <div class="col my-2">
+                        <label for="last name" class="form-label">Message</label>
+                        <textarea type="text" class="form-control" rows="4"></textarea>
+                    </div>
+                    <div class="col">
+                        <button class="w-100 btn theme_btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="img-fluid">
+                    <img class="img-fluid" src="{{ asset('assets/img/reseller/reseller.jpeg') }}" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 @endsection
