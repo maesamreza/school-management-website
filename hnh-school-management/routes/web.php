@@ -18,3 +18,4 @@ Route::get('/pricing', function () { return view('pages.pricing');});
 Route::get('/feature-request', function () { return view('pages.feature-request');});
 Route::get('/support', function () { return view('pages.support');});
 Route::get('/contact', function () { return view('pages.contact');});
+Route::get('/comparison', function () { return view('pages.comparison');});
