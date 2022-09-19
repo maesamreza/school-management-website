@@ -341,28 +341,31 @@
                 <hr>
                 <p class="text-sm text-black">Basic</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
-                <hr>
-                <i class="fa-solid fa-check"></i>
-                <hr>
+
                 <i class="fa-solid fa-x"></i>
                 <hr>
                 <i class="fa-solid fa-x"></i>
                 <hr>
                 <i class="fa-solid fa-x"></i>
                 <hr>
-                <i class="fa-solid fa-x"></i>
-                <hr>
-                <i class="fa-solid fa-x"></i>
-                <hr>
-                <i class="fa-solid fa-check"></i>
+                <p class="text-sm text-black">Basic</p>
                 <hr>
                 <i class="fa-solid fa-check"></i>
                 <hr>
                 <i class="fa-solid fa-check"></i>
                 <hr>
 
-                <p class="text-sm text-pink">Advanced</p>
+                <i class="fa-solid fa-x"></i>
+                <hr>
+                <i class="fa-solid fa-x"></i>
+                <hr>
+                <i class="fa-solid fa-x"></i>
+                <hr>
+                <i class="fa-solid fa-x"></i>
+                <hr>
+                <i class="fa-solid fa-x"></i>
+
+
 
             </div>
         </div>
