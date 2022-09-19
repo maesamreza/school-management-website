@@ -19,3 +19,4 @@ Route::view('/feature-request', 'pages.feature-request');
 Route::view('/support', 'pages.support');
 Route::view('/contact', 'pages.contact');
 Route::view('/reseller', 'pages.reseller');
+Route::view('/comparison', 'pages.comparison');
