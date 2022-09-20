@@ -45,15 +45,15 @@
 
     .text-sm {
         font-size: .875rem;
-        line-height: 1.25rem;
+        /* line-height: 1.25rem; */
     }
 
     .card hr {
-        margin: 12px 0 !important;
+        /* margin: 12px 0 !important; */
     }
 
     hr {
-        margin: 11px 0 !important;
+        margin: 0px 0 !important;
     }
 
     body {
@@ -62,10 +62,14 @@
 
     .fa-check {
         color: #F32470;
+
     }
+
+    .
 
     .text-pink {
         color: #F32470 !important;
+
     }
 
     .pink-border {
@@ -77,6 +81,10 @@
         border-radius: 10px !important;
         width: 16rem !important;
         margin: auto;
+    }
+
+    .uper_card{
+        padding: 0px 0 !important;
     }
 
     @media (min-width:768px) {
@@ -128,6 +136,14 @@
             }
         }
 
+        .plan-column p{
+            margin: 10px 0 !important;
+        }
+
+        .plan-column1 p{
+            margin: 0.615rem 0 !important;
+        }
+
 </style>
 
 <section>
@@ -145,7 +161,7 @@
 </section>
 <div class="container-fluid main-div bg-light">
     <div class="row justify-content-lg-around row-black-border">
-        <div class="col-lg-3 side-bar ps-lg-5">
+        <div class="col-lg-3 plan-column1 side-bar ps-lg-5">
             <p class="h6 text-black">Technical Comparison</p>
 
             <p class="text-sm">Free Installation & Setup
@@ -166,19 +182,19 @@
 
 
         </div>
-        <div class="col-lg-2 col-black-border">
+        <div class="col-lg-2  col-black-border">
             <p class="h6 text-black">InstiKit Lite <span class="h4 fw-bold">$0</span></p>
             <p class="text-sm">Limited Feature School ERP, Suitable for School < 100 Students </p>
-                    <div class="card mt-4 rounded border border-2 shadow text-center">
-                        <i class="fa-solid fa-x"></i>
+                    <div class="card uper_card plan-column mt-4 rounded border border-2 shadow text-center">
+                        <p><i class="fa-solid fa-x"></i></p>
                         <hr>
                         <p class="text-sm text-black">Shared Server</p>
                         <hr>
-                        <i class="fa-solid fa-x"></i>
+                        <p><i class="fa-solid fa-x"></i></p>
                         <hr>
                         <p class="text-sm text-black">No Support</p>
                         <hr>
-                        <i class="fa-solid fa-x"></i>
+                        <p><i class="fa-solid fa-x"></i></p>
                     </div>
 
 
@@ -189,16 +205,16 @@
         <div class="col-lg-2 col-black-border">
             <p class="h6 text-black">InstiKit Regular <span class="h4 fw-bold">$19</span></p>
             <p class="text-sm">Limited Feature School ERP, Suitable for School < 100 Students </p>
-                    <div class="card mt-4 rounded shadow text-center">
-                        <i class="fa-solid fa-x"></i>
+                    <div class="card uper_card plan-column mt-4 rounded shadow text-center">
+                       <p> <i class="fa-solid fa-x"></i></p>
                         <hr>
                         <p class="text-sm text-black">Shared Server</p>
                         <hr>
-                        <i class="fa-solid fa-x"></i>
+                        <p> <i class="fa-solid fa-x"></i></p>
                         <hr>
                         <p class="text-sm text-black">No Support</p>
                         <hr>
-                        <i class="fa-solid fa-x"></i>
+                        <p> <i class="fa-solid fa-x"></i></p>
                     </div>
 
 
@@ -211,16 +227,16 @@
             <p class="h6 text-pink">InstiKit Plus <span class="h4 text-black fw-bold">$49</span></p>
             <p class="text-sm">Premium Feature School ERP, Suitable for School > 500 Students
             </p>
-            <div class="card mt-4 pink-border rounded shadow text-center">
-                <i class="fa-solid fa-check"></i>
+            <div class="card uper_card mt-4 plan-column pink-border rounded shadow text-center">
+            <p><i class="fa-solid fa-check"></i></p>
                 <hr>
                 <p class="text-sm text-pink">VPS or Dedicated</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p> <i class="fa-solid fa-check"></i></p>
                 <hr>
                 <p class="text-sm text-pink">Installation Support</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p>  <i class="fa-solid fa-check"></i></p>
             </div>
 
 
@@ -229,16 +245,16 @@
         <div class="col-lg-2 col-black-border">
             <p class="h6 text-black">InstiKit SaaS <span class="h4 fw-bold">$299</span></p>
             <p class="text-sm">Limited Feature School ERP, Suitable for School < 100 Students </p>
-                    <div class="card mt-4 rounded shadow text-center">
-                        <i class="fa-solid fa-check"></i>
+                    <div class="card uper_card plan-column mt-4 rounded shadow text-center">
+                    <p><i class="fa-solid fa-check"></i></p>
                         <hr>
                         <p class="text-sm text-black">VPS or Dedicated or Cloud</p>
                         <hr>
-                        <i class="fa-solid fa-check"></i>
+                        <p><i class="fa-solid fa-check"></i></p>
                         <hr>
                         <p class="text-sm text-black">Installation Support</p>
                         <hr>
-                        <i class="fa-solid fa-check"></i>
+                        <p><i class="fa-solid fa-check"></i></p>
                     </div>
 
 
@@ -248,8 +264,8 @@
 
 
     <div class="row justify-content-lg-around">
-        <div class="col-lg-3 mt-4 ps-lg-5">
-            <p class="h6 text-black pb-2 mt-1">Feature Comparision</p>
+        <div class="col-lg-3 plan-column1 mt-4 ps-lg-5">
+            <p class="h6 text-black pb-2 ">Feature Comparision</p>
 
             <p class="text-sm">Dashboard
             </p>
@@ -320,70 +336,71 @@
             </p>
         </div>
         <div class="col-lg-2">
-            <div class="card mt-5 rounded shadow text-center">
+            <div class="card mt-5 plan-column rounded shadow text-center">
                 <p class="text-sm text-black">Basic</p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p>
+                <i class="fa-solid fa-x"></i></p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
                 <p class="text-sm text-black">Basic</p>
                 <hr>
                 <p class="text-sm text-black">Basic</p>
                 <hr>
 
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
                 <p class="text-sm text-black">Basic</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
 
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
 
 
 
             </div>
         </div>
         <div class="col-lg-2">
-            <div class="card mt-5 rounded shadow text-center">
+            <div class="card mt-5 plan-column rounded shadow text-center">
                 <p class="text-sm text-black">Standard</p>
                 <hr>
                 <p class="text-sm text-black">Basic</p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
                 <p class="text-sm text-black">Basic</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
                 <p class="text-sm text-black">Standard</p>
                 <hr>
@@ -395,22 +412,22 @@
                 <hr>
                 <p class="text-sm text-black">Standard</p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
                 <p class="text-sm text-black">Standard</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
                 <p class="text-sm text-black">Standard</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
 
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
 
 
@@ -419,20 +436,20 @@
             </div>
         </div>
         <div class="col-lg-2">
-            <div class="card mt-5 pink-border rounded shadow text-center">
+            <div class="card mt-5 plan-column pink-border rounded shadow text-center">
                 <p class="text-sm text-pink">Advanced</p>
                 <hr>
                 <p class="text-sm text-pink">Basic</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
                 <p class="text-sm text-pink">Advanced</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
                 <p class="text-sm text-pink">Advanced</p>
                 <hr>
@@ -448,17 +465,17 @@
                 <hr>
                 <p class="text-sm text-pink">Advanced</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
                 <p class="text-sm text-pink">Advanced</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
 
                 <p class="text-sm text-pink">Advanced</p>
@@ -466,20 +483,20 @@
             </div>
         </div>
         <div class="col-lg-2">
-            <div class="card mt-5 rounded shadow text-center">
+            <div class="card mt-5 plan-column rounded shadow text-center">
                 <p class="text-sm text-black">Advanced</p>
                 <hr>
                 <p class="text-sm text-black">Basic</p>
                 <hr>
                 <p class="text-sm text-black">On Demand</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
                 <p class="text-sm text-black">Advanced</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
                 <p class="text-sm text-black">Standard</p>
                 <hr>
@@ -491,21 +508,21 @@
                 <hr>
                 <p class="text-sm text-black">Advanced</p>
                 <hr>
-                <i class="fa-solid fa-x"></i>
+                <p><i class="fa-solid fa-x"></i></p>
                 <hr>
                 <p class="text-sm text-black">Standard</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
                 <p class="text-sm text-black">Advanced</p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
-                <i class="fa-solid fa-check"></i>
+                <p><i class="fa-solid fa-check"></i></p>
                 <hr>
                 <p class="text-sm text-black">Advanced</p>
 
