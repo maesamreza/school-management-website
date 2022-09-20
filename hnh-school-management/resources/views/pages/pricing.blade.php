@@ -142,7 +142,14 @@
                 margin-top: 15px;
             }
             .plan-heading {
-            font-size: 2.5rem;
+            font-size: 2rem;
+        }
+        .plan-heading {
+            font-size: 2rem !important;
+            text-align: start !important;
+        }
+            .plan-para {
+            text-align: start !important;
         }
         }
         @media(min-width: 768px){
@@ -150,6 +157,19 @@
                 display: flex;
                 justify-content: space-around;
             }
+        };
+
+        .affordable-text{
+            font-size: 48px;
+            line-height: 40px;
+            color: #181818;
+            font-family: "interregular-bold";
+        }
+        .affordable-para{
+            font-size: 20px;
+            line-height: 2px;
+            color: #71717A;
+            font-family: "interregular";
         }
     </style>
 
@@ -157,9 +177,9 @@
     <section>
 
         <div class="banner">
-            <div class="w-100 ms-md-5 pt-5">
+            <div class="w-100 ms-md-5 pt-5 padding-left">
                 <h1 class="text-white plan-heading text-center text-md-start">Pricing Plan</h1>
-                <p class="h5 text-white text-center text-md-start mt-3">Price comparison of InstiKit Variants</p>
+                <p class=" plan-para h5 text-white text-center text-md-start mt-3">Price comparison of InstiKit Variants</p>
             </div>
             <div class="absolute inset-0 bg-primary mix-blend-multiply" aria-hidden="true"></div>
         </div>
@@ -169,8 +189,8 @@
     <section>
 
         <div class="w-100 ms-md-5 pt-5">
-            <h1 class="text-center ">InstiKit is Affordable!</h1>
-            <p class="h5 text-center mt-3 px-1 px-lg-0">We are on a mission to offer best possible School ERP solution at a
+            <h1 class="text-center affordable-text">InstiKit is Affordable!</h1>
+            <p class="h5 text-center mt-3 px-1 px-lg-0 affordable-para">We are on a mission to offer best possible School ERP solution at a
                 affordable cost. Check out our pricing.</p>
         </div>
         <div class="row justify-content-evenly mt-md-5">

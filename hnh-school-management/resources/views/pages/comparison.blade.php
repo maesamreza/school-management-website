@@ -92,7 +92,9 @@
 
             width: 12rem !important;
         }
+        
     }
+  
 
     .col-black-border {
         border-top: 2px solid black;
@@ -143,17 +145,32 @@
         .plan-column1 p{
             margin: 0.615rem 0 !important;
         }
-
+        .variants{
+            font-size: 3.75rem;
+            font-weight: 800;
+            font-family: "interregular-bold";
+        }
+        .variants-tag-line{
+            font-size: 20px;
+            line-height: 28px;
+            color: #E0E7FF;
+            font-family: "interregular";
+        }
+        @media (max-width:768px) {
+        .variants{
+            font-size: 2rem !important;
+        }
+    }
 </style>
 
 <section>
 
     <div class="banner">
-        <div class="w-100 ms-md-5 pt-5">
-            <h1 class="text-white plan-heading text-center text-md-start">
+        <div class="w-100 ms-md-5 pt-5 padding-left">
+            <h1 class="variants text-white text-center text-md-start">
                 InstiKit Variants
             </h1>
-            <p class="h6 text-white text-center text-md-start mt-3">Detailed comparison between InstiKit Variants</p>
+            <p class="h6 text-white text-center variants-tag-line text-md-start mt-3">Detailed comparison between InstiKit Variants</p>
         </div>
         <div class="absolute inset-0 bg-primary mix-blend-multiply" aria-hidden="true"></div>
     </div>

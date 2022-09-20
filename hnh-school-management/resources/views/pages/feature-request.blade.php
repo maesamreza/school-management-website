@@ -39,13 +39,7 @@
             font-family: "interregular-bold";
         }
 
-        @media(max-width: 768px){
-
-            .plan-heading {
-            font-size: 2.5rem !important;
-        }
-        }
-
+     
         .we-text {
             font-size: 18px;
             line-height: 24px;
@@ -77,15 +71,22 @@
             .form_container {
                 width: 96%;
             }
+            .plan-heading {
+            font-size: 2rem !important;
+            text-align: start !important;
+        }
+            .plan-para {
+            text-align: start !important;
+        }
         }
     </style>
 
     <section>
 
         <div class="banner">
-            <div class="w-100 ms-md-5 pt-5">
+            <div class="w-100 ms-md-5 pt-5 padding-left">
                 <h1 class="text-white plan-heading text-center text-md-start">Feature Request</h1>
-                <p class="h5 text-white text-center text-md-start mt-3">Didn't find something you are looking for? Request
+                <p class="plan-para h5 text-white text-center text-md-start mt-3">Didn't find something you are looking for? Request
                     for new features!</p>
             </div>
             <div class="absolute inset-0 bg-primary mix-blend-multiply" aria-hidden="true"></div>

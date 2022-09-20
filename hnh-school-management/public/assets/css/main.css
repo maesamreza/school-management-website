@@ -896,9 +896,9 @@ section-title
   background-color: #fff;
 }
 
-.navbar-nav .nav-item.active {
+/* .navbar-nav .nav-item.active {
   color: #E40C5B;
-}
+} */
 
 .text-white{
     color: white;
@@ -907,9 +907,9 @@ section-title
 .text-black{
     color:black;
 }
-.navbar-nav .nav-item.active .nav-link {
+/* .navbar-nav .nav-item.active .nav-link {
   color: #E40C5B;
-}
+} */
 
 .navbar-nav .nav-item .nav-link {
   color: #505050;

@@ -59,10 +59,13 @@
         @media(max-width: 768px) {
 
             .reseller_heading {
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
             .img_reseller{
                 margin-top: 25px; 
+            }
+            .padding-left{
+                padding: 8px;
             }
         }
 
@@ -129,7 +132,7 @@
 
     <section>
         <div class="banner">
-            <div class="w-100 ms-md-5 pt-5">
+            <div class="w-100 ms-md-5 pt-5 padding-left">
                 <h1 class="text-white plan-heading text-md-start reseller_heading">Reseller Program</h1>
                 <p class="h5 text-white text-md-start mt-3">All about Reseller Program and its benefit!</p>
             </div>

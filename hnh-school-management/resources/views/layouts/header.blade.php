@@ -53,7 +53,7 @@
                                   Limited Feature School ERP, Suitable for
                                   School 100 Students
                                 </p>
-                                <a class="learn-text" href="#">
+                                <a class="learn-text" href="{{('/comparison')}}">
                                   <p class="mt-3 learn-text">
                                     Learn more
                                     <i class="fa-solid fa-arrow-right"></i>
@@ -78,7 +78,7 @@
                                   Limited Feature School ERP, Suitable for
                                   School 100 Students
                                 </p>
-                                <a class="learn-text" href="#">
+                                <a class="learn-text" href="{{('/comparison')}}">
                                   <p class="mt-3 learn-text">
                                     Learn more
                                     <i class="fa-solid fa-arrow-right"></i>
@@ -103,7 +103,7 @@
                                   Limited Feature School ERP, Suitable for
                                   School 100 Students
                                 </p>
-                                <a class="learn-text" href="#">
+                                <a class="learn-text" href="{{('/comparison')}}">
                                   <p class="mt-3 learn-text">
                                     Learn more
                                     <i class="fa-solid fa-arrow-right"></i>
@@ -128,7 +128,7 @@
                                   Limited Feature School ERP, Suitable for
                                   School 100 Students
                                 </p>
-                                <a class="learn-text" href="#">
+                                <a class="learn-text" href="{{('/comparison')}}">
                                   <p class="mt-3 learn-text">
                                     Learn more
                                     <i class="fa-solid fa-arrow-right"></i>
@@ -269,10 +269,10 @@
         <li class="has-dropdown">
           <a href="index.html">Products</a>
           <ul class="sub-menu">
-            <li><a href="#">InstiKit Lite</a></li>
-            <li><a href="#">InstiKit Lite</a></li>
-            <li><a href="#">InstiKit Lite</a></li>
-            <li><a href="#">InstiKit Lite</a></li>
+            <li><a href="{{('/comparison')}}">InstiKit Lite</a></li>
+            <li><a href="{{('/comparison')}}">InstiKit Lite</a></li>
+            <li><a href="{{('/comparison')}}">InstiKit Lite</a></li>
+            <li><a href="{{('/comparison')}}">InstiKit Lite</a></li>
           </ul>
         </li>
         <li><a href="{{url('pricing')}}">Pricing</a></li>

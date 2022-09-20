@@ -67,7 +67,7 @@
     dont remove this border
 } */
 #home_first_section{
-    margin-top: 200px;
+    margin-top: 220px;
 }
 .home_first_section_heading{
     font-size: 48px;
@@ -256,4 +256,8 @@
     background-color: #E40C5B;
 }
 
-    /* convinced_section start */
+    
+
+.padding-left{
+    padding: 8px;
+}
