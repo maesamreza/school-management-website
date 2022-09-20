@@ -153,7 +153,6 @@
                       <a
                         class="nav-link dropdown-toggle"
                         href="{{url('feature-request')}}"
-                        id="navbarDropdown3"
                         >Feature Request</a
                       >
                     
@@ -162,7 +161,6 @@
                       <a
                         class="nav-link dropdown-toggle text-gray-500"
                         href="{{url('support')}}"
-                        id="navbarDropdown4"
                       >
                         Support
                       </a>
@@ -286,4 +284,3 @@
     </nav>
     <!-- side-mobile-menu end -->
   </aside>
-

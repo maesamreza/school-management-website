@@ -67,6 +67,7 @@
             box-shadow: 0 0 0 2.5px #e40c5b;
 
         }   
+    
 
         .form_container {
             width: 600px;

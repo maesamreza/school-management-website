@@ -145,6 +145,12 @@
             font-size: 2.5rem;
         }
         }
+        @media(min-width: 768px){
+            .lfcrow{
+                display: flex;
+                justify-content: space-around;
+            }
+        }
     </style>
 
 
@@ -350,14 +356,17 @@
         </div>
     </section>
 
-    <div class="looking-for-feature row justify-content-around align-items-center mt-5 py-5">
+    <div class="container-fluid">
+        <div class="row lfcrow mt-5 py-5">
 
-        <div class="col-lg-8">
-            <h1 class="text-center text-lg-start ms-lg-5 looking-text">Looking for Feature Comparison?</h1>
+            <div class="col-md-8">
+                <h1 class="text-center text-lg-start ms-lg-5 looking-text">Looking for Feature Comparison?</h1>
+            </div>
+            <div class="col-md-2">
+                <button class="btn theme_btn check_btn">Check Here</button>
+            </div>
+    
         </div>
-        <div class="col-2">
-            <button class="btn theme_btn check_btn">Check Here</button>
-        </div>
-
     </div>
+    
 @endsection
