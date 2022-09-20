@@ -42,7 +42,7 @@
             display: block;
             width: 100%;
             height: 68vh;
-            background-color: #e40c5b;
+            background-color: #0951CC;
             position: absolute;
             top: 0;
             left: 0;
@@ -76,7 +76,7 @@
         }
 
         .theme_btn_pink {
-            background-color: #f32470 !important;
+            background-color: #0951CC !important;
             padding: 0.7rem !important;
             font-size: .875rem !important;
         }
@@ -167,7 +167,7 @@
         }
         .affordable-para{
             font-size: 20px;
-            line-height: 2px;
+            /* line-height: 2px; */
             color: #71717A;
             font-family: "interregular";
         }

@@ -20,7 +20,7 @@
         display: block;
         width: 100%;
         height: 68vh;
-        background-color: #e40c5b;
+        background-color: #0951CC;
         position: absolute;
         top: 0;
         left: 0;
@@ -61,19 +61,19 @@
     }
 
     .fa-check {
-        color: #F32470;
+        color: #0951CC;
 
     }
 
     .
 
     .text-pink {
-        color: #F32470 !important;
+        color: #0951CC !important;
 
     }
 
     .pink-border {
-        border: 2px solid #F32470;
+        border: 2px solid #0951CC;
     }
 
     .card {
@@ -103,7 +103,7 @@
     }
 
     .col-pink-border {
-        border-top: 2px solid #F32470;
+        border-top: 2px solid #0951CC;
         padding-top: 50px;
         margin-top: -0.079rem !important;
     }

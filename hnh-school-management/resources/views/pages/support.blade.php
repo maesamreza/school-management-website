@@ -19,7 +19,7 @@
             display: block;
             width: 100%;
             height: 68vh;
-            background-color: #e40c5b;
+            background-color: #0951CC;
             position: absolute;
             top: 0;
             left: 0;
@@ -85,8 +85,8 @@
             margin-left: auto;
             margin-right: auto;
             display: block;
-            color: #E40C5B;
-            border: 1px solid #E40C5B;
+            color: #0951CC;
+            border: 1px solid #0951CC;
             background-color: #fff;
         }
 
@@ -100,7 +100,7 @@
             display: block;
             color: #fff;
             border: 1px solid #fff;
-            background-color: #E40C5B;
+            background-color: #0951CC;
         }
 
         /* convinced_section start */

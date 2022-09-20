@@ -12,23 +12,25 @@
                 font-family: "interregular-bold";
                 src: url(../font/static/Inter-ExtraBold.ttf);
             }
-            
+
             @font-face {
                 font-family: "interregular-light";
                 src: url(../font/static/Inter-Light.ttf);
             }
-            
+
             .whatsnew {
-                color: #e40c5b;
+                color: #0951CC;
                 font-family: "interregular";
                 font-size: 14px;
                 line-height: 20px;
             }
+
             .whatsnew:hover {
-                color: #e40c5b;
+                color: #0951CC;
             }
-            .whatbg{
-                color: #e40c5b;
+
+            .whatbg {
+                color: #0951CC;
                 background-color: #FFF1F2;
                 font-size: 12px;
                 line-height: 16px;
@@ -36,25 +38,59 @@
                 font-weight: 800;
                 padding: 2px;
             }
+
+
+
+            /* Slider */
+
+
+
+            .carousel{
+                height: 100vh !important;
+            }
+            
+
+            .carousel-control-prev-icon, .carousel-control-next-icon{
+                font-size: 20px;
+                color: #000;
+                background-color: #000;
+            }
+
+            
+
+
+
         </style>
         <section>
             <div class="container first-section-container" style="border: 1px solid transparent;">
                 <div class="row" id="home_first_section">
                     <div class="col-md-6">
                         <div>
-                            <a href="{{('comparison')}}" class="whatsnew mb-2">
-                               <span class="whatbg"> WHAT'S NEW </span> &nbsp;&nbsp; <span>Upgraded to PHP 8 & Laravel 9 ></span>
+                            <a href="{{ 'comparison' }}" class="whatsnew mb-2">
+                                <span class="whatbg"> WHAT'S NEW </span> &nbsp;&nbsp; <span>Upgraded to PHP 8 & Laravel 9
+                                    ></span>
                             </a>
                             <h1 class="home_first_section_heading">
                                 Most Comprehensive <br />
                                 School ERP Solution
                             </h1>
-                            <div class="d-flex mt-4">
-                                <a href="#">
-                                    <button class="buy_btn border-0">Buy Now</button>
+                            <div class="d-flex flex-wrap mt-4">
+                                <a href="{{ '/pricing' }}">
+                                    <button class="buy_btn border-0 mt-2">Buy Now</button>
                                 </a>
                                 <a href="#">
-                                    <button class="live_btn ml-5 border-0">Live Demo</button>
+                                    <button class="live_btn ml-5 border-0 mt-2">Live Demo</button>
+                                </a>
+                                <a href="#">
+                                    <button class="ss_btn ml-5 border-0 mt-2" data-bs-toggle="modal"
+                                        data-bs-target="#slider">Screenshot</button>
+                                </a>
+                                <a href="#">
+                                    <button class="cre_btn ml-5 border-0 mt-2" data-bs-toggle="modal"
+                                        data-bs-target="#credential">Credentials</button>
+                                </a>
+                                <a href="#">
+                                    <button class="vid_btn ml-5 border-0 mt-2">Video</button>
                                 </a>
                             </div>
                             <p class="home_first_section_text mt-4">
@@ -316,9 +352,11 @@
                                                     Check all the features in detail!
                                                 </h4>
                                                 <div class="my-5">
-                                                    <button class="feature_btn text-center">
-                                                        Feature Comparison
-                                                    </button>
+                                                    <a href="{{ '/comparison' }}">
+                                                        <button class="feature_btn text-center">
+                                                            Feature Comparison
+                                                        </button>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -339,8 +377,8 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-12">
-                                            <div class="text-center">
-                                                <img class="img-fluid instikit-logo"
+                                            <div class="text-center img-fluid">
+                                                <img class="instikit-logo img-fluid"
                                                     src="{{ asset('assets/img/logo/logo1.png') }}" alt="">
                                             </div>
                                             <p class="amazing_para text-center mt-3">
@@ -420,6 +458,228 @@
 
 
         </section>
+
+
+
+        {{-- credentials modal --}}
+
+
+        <div class="modal fade" id="credential" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Credentials</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <p class="h5">
+                                Demo Link
+                            </p>
+                            <a target="_blank" href="https://in.instikit.com">
+                                https://in.instikit.com
+                            </a>
+                        </div>
+
+                        <hr>
+
+                        <div class="mt-2">
+                            <p class="h5">
+                                Login Informations
+                            </p>
+                            <p>
+                                To login as <span class="fw-bold">Admin</span>
+                            </p>
+                            <p>
+                                Email: admin@admin.com
+                            </p>
+                            <p>
+                                Password: password
+                            </p>
+                        </div>
+
+
+                        <hr>
+
+                        <div class="mt-2">
+                            <p>
+                                To login as <span class="fw-bold">Manager</span>
+                            </p>
+                            <p>
+                                Email: manager@manager.com
+                            </p>
+                            <p>
+                                Password: password
+                            </p>
+                        </div>
+
+
+
+                        <hr>
+
+                        <div class="mt-2">
+                            <p>
+                                To login as <span class="fw-bold">Principle</span>
+                            </p>
+                            <p>
+                                Email: principal@principal.com
+                            </p>
+                            <p>
+                                Password: password
+                            </p>
+                        </div>
+
+
+
+                        <hr>
+
+                        <div class="mt-2">
+                            <p>
+                                To login as <span class="fw-bold">Staff</span>
+                            </p>
+                            <p>
+                                Email: staff@staff.com
+                            </p>
+                            <p>
+                                Password: password
+                            </p>
+                        </div>
+
+
+
+                        <hr>
+
+                        <div class="mt-2">
+                            <p>
+                                To login as <span class="fw-bold">Accountant</span>
+                            </p>
+                            <p>
+                                Email: accountant@accountant.com
+                            </p>
+                            <p>
+                                Password: password
+                            </p>
+                        </div>
+
+
+
+                        <hr>
+
+                        <div class="mt-2">
+                            <p>
+                                To login as <span class="fw-bold">Librarian</span>
+                            </p>
+                            <p>
+                                Email: librarian@librarian.com
+                            </p>
+                            <p>
+                                Password: password
+                            </p>
+                        </div>
+
+
+
+                        <hr>
+
+                        <div class="mt-2">
+                            <p>
+                                To login as <span class="fw-bold">Student</span>
+                            </p>
+                            <p>
+                                Email: student@student.com
+                            </p>
+                            <p>
+                                Password: password
+                            </p>
+                        </div>
+
+
+
+                        <hr>
+
+                        <div class="mt-2">
+                            <p>
+                                To login as <span class="fw-bold">Parent</span>
+                            </p>
+                            <p>
+                                Email: parent@parent.com
+                            </p>
+                            <p>
+                                Password: password
+                            </p>
+                        </div>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        {{-- credentials modal ENd --}}
+
+
+
+        {{-- slider modal ENd --}}
+
+
+
+
+
+        <div class="modal" id="slider">
+            <div class="modal-dialog modal-fullscreen">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Modal Heading</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="{{asset('assets/img/home-page-slider/Admission List.png')}}" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="{{asset('assets/img/home-page-slider/Dashboard.png')}}"  class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="{{asset('assets/img/home-page-slider/Fee Allocation.png')}}"  class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="{{asset('assets/img/home-page-slider/Student Attendance.png')}}"  class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="{{asset('assets/img/home-page-slider/Timetable.png')}}"  class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+          
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+
 
 
 

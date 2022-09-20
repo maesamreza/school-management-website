@@ -21,7 +21,7 @@
         }
 
         .bg-pink {
-            background-color: #e40c5b;
+            background-color: #0951CC;
         }
 
         .f-icon {
@@ -31,7 +31,7 @@
         .form-control:focus {
             outline: none;
             border: none;
-            box-shadow: 0 0 0 2.5px #e40c5b;
+            box-shadow: 0 0 0 2.5px #0951CC;
 
         }
 

@@ -27,16 +27,22 @@
     .home_img_main{
         margin-top: 40px !important;
     }
+    .buy_btn{
+        padding: 14px 25px !important;
+    }
+    .live_btn{
+        padding: 14px 25px !important;
+    }
 }
 
 .category_icon{
     font-size: 32px;
-    color: #E40C5B;
+    color: #0951CC;
     margin-bottom: 15px;
     font-family: "interregular";
 }
 .learn-text{
-    color: #E40C5B;
+    color: #0951CC;
     font-size: 14px;
 }
 .pro-card-text{
@@ -78,18 +84,59 @@
 }
 .buy_btn{
     color: #fff;
-    background-color: #E40C5B;
-    padding: 16px 28px;
+    background-color: #0951CC;
+    padding: 12px 0px;
+    font-size: 15px;
+    width: 100px;
     border-radius: 6px;
     font-family: "interregular";
 }
+/* .buy_btn:hover{
+    background-color: #336bcc;
+} */
 .live_btn{
     color: #fff;
-    background-color: #4C2D8C;
-    padding: 16px 28px;
+    background-color: #0951CC;
+    padding: 12px 0px;
+    font-size: 15px;
+    width: 100px;
     border-radius: 6px;
     font-family: "interregular";
 }
+.ss_btn{
+    color: #fff;
+    background-color: #0951CC;
+    padding: 12px 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    font-family: "interregular";
+}
+.cre_btn{
+    color: #fff;
+    background-color: #0951CC;
+    padding: 12px 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    font-family: "interregular";
+}
+.vid_btn{
+    color: #fff;
+    background-color: #0951CC;
+    padding: 12px 15px;
+    font-size: 15px;
+    border-radius: 6px;
+    font-family: "interregular";
+}
+
+@media (max-width: 576px) {
+    .buy_btn{
+        width: 115px;
+    }
+    .live_btn{
+        width: 125px;
+    }
+}
+
 .home_first_section_text{
     color: #71717A;
     font-size: 20px;
@@ -105,7 +152,7 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.4px;
-    color: #E40C5B;
+    color: #0951CC;
     font-family: "interregular";
     font-weight: bolder;
 }
@@ -164,7 +211,7 @@
 }
 .feature_btn{
     color: #fff;
-    background-color: #E40C5B;
+    background-color: #0951CC;
     padding: 12px 24px;
     border-radius: 6px;
     font-family: "interregular";
@@ -175,7 +222,7 @@
     display: block;
 }
 .feature_btn:hover{
-    background-color: #F32470;
+    background-color: #336bcc;
 }
 
 
@@ -190,7 +237,12 @@
     font-weight: 500;
 }
 .instikit-logo{
-    max-width: 18%;
+    max-width: 18% !important;
+}
+@media (max-width: 786px) {
+    .instikit-logo{
+        max-width: 45% !important;
+    }
 }
 .saifullah{
     font-family: "interregular";
@@ -202,7 +254,7 @@
 .slash{
     font-family: "interregular-bold";
     font-weight: bold;
-    color: #E40C5B;
+    color: #0951CC;
     font-size: 23px;
 }
 .trainer{
@@ -239,8 +291,8 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    color: #E40C5B;
-    border: 1px solid #E40C5B;
+    color: #0951CC;
+    border: 1px solid #0951CC;
     background-color: #fff;
 }
 .convinced_btn:hover{
@@ -253,7 +305,7 @@
     display: block;
     color: #fff;
     border: 1px solid #fff;
-    background-color: #E40C5B;
+    background-color: #0951CC;
 }
 
     

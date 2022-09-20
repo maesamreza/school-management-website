@@ -19,7 +19,7 @@
             display: block;
             width: 100%;
             height: 68vh;
-            background-color: #e40c5b;
+            background-color: #0951CC;
             position: absolute;
             top: 0;
             left: 0;
@@ -58,7 +58,7 @@
         .form-control:focus {
             outline: none;
             border: none;
-            box-shadow: 0 0 0 2.5px #e40c5b;
+            box-shadow: 0 0 0 2.5px #0951CC;
 
         }   
     

@@ -5,7 +5,7 @@
           <div class="col-xl-2 col-lg-2 col-5">
             <div class="logo">
               <a href="{{url('/')}}"
-                ><img width="90%" src="{{asset('assets/img/logo/logo1.png')}}" alt=""
+                ><img width="50%" src="{{asset('assets/img/logo/logo1.png')}}" alt=""
               /></a>
             </div>
           </div>
