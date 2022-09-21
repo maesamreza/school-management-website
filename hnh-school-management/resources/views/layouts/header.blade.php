@@ -192,12 +192,12 @@
               <div class="right-btn mr-25 mr-xs-15">
                 <ul class="d-flex align-items-center mt-2">
                   <li>
-                    <a href="contact.html" class="theme_btn free_btn"
+                    <a href="#" class="theme_btn free_btn"
                       >Register</a
                     >
                   </li>
                   <li>
-                    <a href="contact.html" class="theme_btn free_btn ml-5"
+                    <a href="#" class="theme_btn free_btn ml-5"
                       >Login</a
                     >
                   </li>
