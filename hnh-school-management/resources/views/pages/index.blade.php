@@ -45,21 +45,33 @@
 
 
 
-            .carousel{
+            .carousel {
                 height: 100vh !important;
             }
-            
 
-            .carousel-control-prev-icon, .carousel-control-next-icon{
+
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
                 font-size: 20px;
-                color: #000;
-                background-color: #000;
+                color: #000 !important;
+                background-color: #000 !important;
             }
 
-            
+            .carousel-item img {
+                height: 100vh !important;
+            }
 
 
+            video {
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 100%;
+            }
 
+            .video_container {
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
         </style>
         <section>
             <div class="container first-section-container" style="border: 1px solid transparent;">
@@ -78,23 +90,24 @@
                                 <a href="{{ '/pricing' }}">
                                     <button class="buy_btn border-0 mt-2">Buy Now</button>
                                 </a>
-                                <a href="#">
+                                <a target="_blank" href="{{ url('https://school.hnhtechsolutions.com/login') }}">
                                     <button class="live_btn ml-5 border-0 mt-2">Live Demo</button>
                                 </a>
-                                <a href="#">
+                                <a>
                                     <button class="ss_btn ml-5 border-0 mt-2" data-bs-toggle="modal"
                                         data-bs-target="#slider">Screenshot</button>
                                 </a>
-                                <a href="#">
+                                <a>
                                     <button class="cre_btn ml-5 border-0 mt-2" data-bs-toggle="modal"
                                         data-bs-target="#credential">Credentials</button>
                                 </a>
                                 <a href="#">
-                                    <button class="vid_btn ml-5 border-0 mt-2">Video</button>
+                                    <button class="vid_btn ml-5 border-0 mt-2" data-bs-toggle="modal"
+                                        data-bs-target="#video">Video</button>
                                 </a>
                             </div>
                             <p class="home_first_section_text mt-4">
-                                InstiKit is a Self Hosted ERP Solution which offers tons of
+                                Hnh Tech Solutions is a Self Hosted ERP Solution which offers tons of
                                 features to manage your school operation. It reduces the time
                                 needed to put on administrative tasks, thus allowing schools
                                 to focus more on the students & academics and improve overall
@@ -119,9 +132,33 @@
 
         {{-- video start --}}
 
-        <h1 class="text-center my-5">
-            Video Section
-        </h1>
+        {{-- <div class="container">
+            <div class="row">
+                <div class="col">
+                    <video src="{{ asset('assets/video/Schoolvideo.mp4') }}"></video>
+                </div>
+            </div>
+        </div> --}}
+
+
+        <div class="container video_container">
+            <div class="row">
+                <div class="col">
+                    {{-- <video preload="auto" controls autoplay>
+                        <source src="{{ asset('assets/video/Schoolvideo.mp4') }}" type="video/mp4">
+                        <source src="{{ asset('assets/video/Schoolvideo.mp4') }}" type="video/ogg">
+                    </video> --}}
+
+                    <video controls="controls autoplay">
+                        <source src="{{ asset('assets/video/Schoolvideo.mp4') }}" type="video/mp4" />
+                    </video>
+
+
+                </div>
+            </div>
+        </div>
+
+
 
 
         {{-- video End --}}
@@ -146,7 +183,8 @@
                                 A better way to manage School Operation
                             </h1>
                             <p class="powerful_para text-center mt-3">
-                                InstiKit has curated list of modules, easy to understand & operate, <br> scalable and well
+                                Hnh Tech Solutions has curated list of modules, easy to understand & operate, <br> scalable
+                                and well
                                 planned future development roadmap.
                             </p>
 
@@ -271,7 +309,8 @@
                                     <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Everything You Need</h5>
-                                        <p class="every_card_para">InstiKit covers each & every aspect of school operation.
+                                        <p class="every_card_para">Hnh Tech Solutions covers each & every aspect of school
+                                            operation.
                                             You can manage everything from reception to students & staff to accounting.</p>
 
                                     </div>
@@ -280,7 +319,8 @@
                                     <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Accessible for Every Role</h5>
-                                        <p class="every_card_para">InstiKit is designed for different users of the school.
+                                        <p class="every_card_para">Hnh Tech Solutions is designed for different users of the
+                                            school.
                                             Admin, Staff, Accountant, Student, Parent every one can access ERP.</p>
 
                                     </div>
@@ -291,7 +331,8 @@
                                     <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Easy to Use</h5>
-                                        <p class="every_card_para">InstiKit can be set up in few minutes. The super simple &
+                                        <p class="every_card_para">Hnh Tech Solutions can be set up in few minutes. The
+                                            super simple &
                                             easy interface helps users to quickly understand & used-to with the ERP.</p>
 
                                     </div>
@@ -301,7 +342,8 @@
                                     <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Reliable & Secure</h5>
-                                        <p class="every_card_para">Schools are using InstiKit real-time to manage their
+                                        <p class="every_card_para">Schools are using Hnh Tech Solutions real-time to manage
+                                            their
                                             operations for multiple years. It is built with Latest Technology, always
                                             up-to-date.</p>
 
@@ -313,7 +355,8 @@
                                     <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">White-label & Managed</h5>
-                                        <p class="every_card_para">InstiKit is complete white-label ERP Solution & Managed.
+                                        <p class="every_card_para">Hnh Tech Solutions is complete white-label ERP Solution &
+                                            Managed.
                                             Let us take care of technical things while you take care of school operation.
                                         </p>
 
@@ -324,7 +367,8 @@
                                     <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Affordable</h5>
-                                        <p class="every_card_para">InstiKit offers tons of functionality at very affordable
+                                        <p class="every_card_para">Hnh Tech Solutions offers tons of functionality at very
+                                            affordable
                                             cost. All the versions are available for Lifetime validity on one time purchase.
                                         </p>
 
@@ -403,17 +447,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
                         </div>
                     </div>
                 </div>
@@ -434,15 +467,17 @@
                             <div class="py-5">
                                 <h1 class="text-center convinced_heading">
                                     Convinced? Let's proceed to buy. <br>
-                                    Start using InstiKit today!
+                                    Start using Hnh Tech Solutions today!
                                 </h1>
                                 <p class="text-center convinced_para mt-4">
                                     We’d love to hear from you. Call 8-3055-7055-8 to get in touch or send <br> us email to
                                     hello@scriptmint.com
                                 </p>
+                            <a href="{{('/pricing')}}">
                                 <button class="convinced_btn mb-3 mt-5">
                                     Buy Now!
                                 </button>
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -632,53 +667,114 @@
 
         <div class="modal" id="slider">
             <div class="modal-dialog modal-fullscreen">
-              <div class="modal-content">
-          
-                <!-- Modal Header -->
-                <div class="modal-header">
-                  <h4 class="modal-title">Modal Heading</h4>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-          
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="{{asset('assets/img/home-page-slider/Admission List.png')}}" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="{{asset('assets/img/home-page-slider/Dashboard.png')}}"  class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="{{asset('assets/img/home-page-slider/Fee Allocation.png')}}"  class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="{{asset('assets/img/home-page-slider/Student Attendance.png')}}"  class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="{{asset('assets/img/home-page-slider/Timetable.png')}}"  class="d-block w-100" alt="...">
-                          </div>
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Screeshots</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{ asset('assets/img/home-page-slider/Admission List.png') }}"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('assets/img/home-page-slider/Dashboard.png') }}"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('assets/img/home-page-slider/Fee Allocation.png') }}"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('assets/img/home-page-slider/Student Attendance.png') }}"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{ asset('assets/img/home-page-slider/Timetable.png') }}"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                      </div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="cre_btn border-0" data-bs-dismiss="modal">Close</button>
+                    </div>
+
                 </div>
-          
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                </div>
-          
-              </div>
             </div>
-          </div>
+        </div>
+
+
+
+
+
+
+
+
+        {{-- slider modal ENd --}}
+
+
+
+
+
+        <div class="modal" id="video">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+
+
+                       <!-- Modal Header -->
+                       <div class="modal-header">
+                        {{-- <h4 class="modal-title"></h4> --}}
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+
+
+                        <div class="container video_container">
+                            <div class="row">
+                                <div class="col">
+
+                                    <video controls="controls autoplay">
+                                        <source src="{{ asset('assets/video/Schoolvideo.mp4') }}" type="video/mp4" />
+                                    </video>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="cre_btn border-0" data-bs-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
 
 

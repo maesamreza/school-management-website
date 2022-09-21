@@ -2,8 +2,8 @@
 @section('content')
     <style>
         /* *{
-                font-family: "interregular";
-            } */
+                    font-family: "interregular";
+                } */
 
         @font-face {
             font-family: "interregular";
@@ -63,11 +63,11 @@
         }
 
         /* .price-tag-text {
-                font-size: 20px;
-                line-height: 28px;
-                color: #E0E7FF;
-                font-family: "interregular";
-            } */
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #E0E7FF;
+                    font-family: "interregular";
+                } */
 
         .theme_btn_purple {
             background-color: #4c2d8c !important;
@@ -132,8 +132,9 @@
             color: #181818;
             font-family: "interregular-bold";
         }
-        @media(max-width: 768px){
-            .check_btn{
+
+        @media(max-width: 768px) {
+            .check_btn {
                 margin: 0 auto;
                 /* width: 70%; */
                 display: block;
@@ -141,31 +142,38 @@
                 justify-content: center !important;
                 margin-top: 15px;
             }
+
             .plan-heading {
-            font-size: 2rem;
-        }
-        .plan-heading {
-            font-size: 2rem !important;
-            text-align: start !important;
-        }
+                font-size: 2rem;
+            }
+
+            .plan-heading {
+                font-size: 2rem !important;
+                text-align: start !important;
+            }
+
             .plan-para {
-            text-align: start !important;
+                text-align: start !important;
+            }
         }
-        }
-        @media(min-width: 768px){
-            .lfcrow{
+
+        @media(min-width: 768px) {
+            .lfcrow {
                 display: flex;
                 justify-content: space-around;
             }
-        };
+        }
 
-        .affordable-text{
+        ;
+
+        .affordable-text {
             font-size: 48px;
             line-height: 40px;
             color: #181818;
             font-family: "interregular-bold";
         }
-        .affordable-para{
+
+        .affordable-para {
             font-size: 20px;
             /* line-height: 2px; */
             color: #71717A;
@@ -179,7 +187,8 @@
         <div class="banner">
             <div class="w-100 ms-md-5 pt-5 padding-left">
                 <h1 class="text-white plan-heading text-center text-md-start">Pricing Plan</h1>
-                <p class=" plan-para h5 text-white text-center text-md-start mt-3">Price comparison of InstiKit Variants</p>
+                <p class=" plan-para h5 text-white text-center text-md-start mt-3">Price comparison of Hnh Tech Solutions
+                    Variants</p>
             </div>
             <div class="absolute inset-0 bg-primary mix-blend-multiply" aria-hidden="true"></div>
         </div>
@@ -189,19 +198,22 @@
     <section>
 
         <div class="w-100 ms-md-5 pt-5">
-            <h1 class="text-center affordable-text">InstiKit is Affordable!</h1>
-            <p class="h5 text-center mt-3 px-1 px-lg-0 affordable-para">We are on a mission to offer best possible School ERP solution at a
+            <h1 class="text-center affordable-text">Hnh Tech Solutions is Affordable!</h1>
+            <p class="h5 text-center mt-3 px-1 px-lg-0 affordable-para">We are on a mission to offer best possible School ERP
+                solution at a
                 affordable cost. Check out our pricing.</p>
         </div>
         <div class="row justify-content-evenly mt-md-5">
             <div class="col-lg-3 col-md-6 my-2 card rounded-3" style="width: 18rem;">
                 <div class="price-tag  p-3">
-                    <p class="h5 text-black my-2 litetext litetext">InstiKit Lite</p>
+                    <p class="h5 text-black my-2 litetext litetext">Hnh Tech Solutions Lite</p>
                     <p class="price-tag-text my-2">Limited Feature School ERP, Suitable for School < 100 Students</p>
                             <h1 class="my-4">$0</h1>
                             <div class="d-flex justify-content-around">
 
-                                <button class="btn theme_btn theme_btn_pink">Live Demo</button>
+                                <a href="{{ url('https://school.hnhtechsolutions.com/login') }}">
+                                    <button class="btn theme_btn theme_btn_pink">Live Demo</button>
+                                </a>
                                 <button class="btn theme_btn theme_btn_purple">Download</button>
                             </div>
                 </div>
@@ -223,12 +235,14 @@
             </div>
             <div class="col-lg-3 col-md-6 my-2 card rounded-3" style="width: 18rem;">
                 <div class="price-tag p-3">
-                    <p class="h5 text-black my-2 litetext">InstiKit Lite</p>
+                    <p class="h5 text-black my-2 litetext">Hnh Tech Solutions Lite</p>
                     <p class="price-tag-text my-2">Standard Feature School ERP, Suitable for School < 500 Students</p>
                             <h1 class="my-4">$19</h1>
                             <div class="d-flex justify-content-around">
 
-                                <button class="btn theme_btn theme_btn_pink">Live Demo</button>
+                                <a href="{{ url('https://school.hnhtechsolutions.com/login') }}">
+                                    <button class="btn theme_btn theme_btn_pink">Live Demo</button>
+                                </a>
                                 <button class="btn theme_btn theme_btn_purple">Download</button>
                             </div>
                 </div>
@@ -261,12 +275,14 @@
             </div>
             <div class="col-lg-3 col-md-6 my-2 card rounded-3" style="width: 18rem;">
                 <div class="price-tag p-3">
-                    <p class="h5 text-black my-2 litetext">InstiKit Lite</p>
+                    <p class="h5 text-black my-2 litetext">Hnh Tech Solutions Lite</p>
                     <p class="price-tag-text my-2">Premium Feature School ERP, Suitable for School > 500 Students</p>
                     <h1 class="my-4">$49</h1>
                     <div class="d-flex justify-content-around">
 
-                        <button class="btn theme_btn theme_btn_pink">Live Demo</button>
+                        <a href="{{ url('https://school.hnhtechsolutions.com/login') }}">
+                            <button class="btn theme_btn theme_btn_pink">Live Demo</button>
+                        </a>
                         <button class="btn theme_btn theme_btn_purple">Download</button>
                     </div>
                 </div>
@@ -311,12 +327,14 @@
             </div>
             <div class="col-lg-3 col-md-6 my-2 card rounded-3" style="width: 18rem;">
                 <div class="price-tag p-3">
-                    <p class="h5 text-black my-2 litetext">InstiKit Lite</p>
+                    <p class="h5 text-black my-2 litetext">Hnh Tech Solutions Lite</p>
                     <p class="price-tag-text my-2">Multi School ERP SaaS based Solution, Suitable for Resellers</p>
                     <h1 class="my-4">$299</h1>
                     <div class="d-flex justify-content-around">
 
-                        <button class="btn theme_btn theme_btn_pink">Live Demo</button>
+                        <a href="{{ url('https://school.hnhtechsolutions.com/login') }}">
+                            <button class="btn theme_btn theme_btn_pink">Live Demo</button>
+                        </a>
                         <button class="btn theme_btn theme_btn_purple">Download</button>
                     </div>
                 </div>
@@ -383,10 +401,11 @@
                 <h1 class="text-center text-lg-start ms-lg-5 looking-text">Looking for Feature Comparison?</h1>
             </div>
             <div class="col-md-2">
+            <a href="{{('/comparison')}}">
                 <button class="btn theme_btn check_btn">Check Here</button>
+            </a>
             </div>
-    
+
         </div>
     </div>
-    
 @endsection

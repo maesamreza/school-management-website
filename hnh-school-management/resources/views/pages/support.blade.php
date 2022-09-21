@@ -179,15 +179,17 @@
                     <div class="py-5">
                         <h1 class="text-center convinced_heading">
                             Convinced? Let's proceed to buy. <br>
-                            Start using InstiKit today!
+                            Start using Hnh Tech Solutions today!
                         </h1>
                         <p class="text-center convinced_para mt-4">
                             We’d love to hear from you. Call 8-3055-7055-8 to get in touch or send <br> us email to
                             hello@scriptmint.com
                         </p>
+                        <a href="{{('/pricing')}}">
                         <button class="convinced_btn mb-3 mt-5">
                             Buy Now!
                         </button>
+                    </a>
                     </div>
                 </div>
             </div>

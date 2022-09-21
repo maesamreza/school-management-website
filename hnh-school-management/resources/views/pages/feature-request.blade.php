@@ -101,7 +101,7 @@
             <div class="pt-5">
                 <h1 class=" text-center Reach_text">Reach us for New Features</h1>
                 <p class="h5 text-center mt-3 px-1 px-lg-0 we-text">We would like to hear from you. Share your ideas/features
-                    you would like to have in InstiKit!</p>
+                    you would like to have in Hnh Tech Solutions!</p>
             </div>
 
             <div class="row mt-5">

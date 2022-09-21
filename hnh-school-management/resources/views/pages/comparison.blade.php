@@ -168,9 +168,9 @@
     <div class="banner">
         <div class="w-100 ms-md-5 pt-5 padding-left">
             <h1 class="variants text-white text-center text-md-start">
-                InstiKit Variants
+                Hnh Tech Solutions Variants
             </h1>
-            <p class="h6 text-white text-center variants-tag-line text-md-start mt-3">Detailed comparison between InstiKit Variants</p>
+            <p class="h6 text-white text-center variants-tag-line text-md-start mt-3">Detailed comparison between Hnh Tech Solutions Variants</p>
         </div>
         <div class="absolute inset-0 bg-primary mix-blend-multiply" aria-hidden="true"></div>
     </div>
@@ -200,7 +200,7 @@
 
         </div>
         <div class="col-lg-2  col-black-border">
-            <p class="h6 text-black">InstiKit Lite <span class="h4 fw-bold">$0</span></p>
+            <p class="h6 text-black">Hnh Tech Solutions Lite <span class="h4 fw-bold">$0</span></p>
             <p class="text-sm">Limited Feature School ERP, Suitable for School < 100 Students </p>
                     <div class="card uper_card plan-column mt-4 rounded border border-2 shadow text-center">
                         <p><i class="fa-solid fa-x"></i></p>
@@ -220,7 +220,7 @@
 
         </div>
         <div class="col-lg-2 col-black-border">
-            <p class="h6 text-black">InstiKit Regular <span class="h4 fw-bold">$19</span></p>
+            <p class="h6 text-black">Hnh Tech Solutions Regular <span class="h4 fw-bold">$19</span></p>
             <p class="text-sm">Limited Feature School ERP, Suitable for School < 100 Students </p>
                     <div class="card uper_card plan-column mt-4 rounded shadow text-center">
                        <p> <i class="fa-solid fa-x"></i></p>
@@ -241,7 +241,7 @@
 
 
         <div class="col-lg-2  col-pink-border">
-            <p class="h6 text-pink">InstiKit Plus <span class="h4 text-black fw-bold">$49</span></p>
+            <p class="h6 text-pink">Hnh Tech Solutions Plus <span class="h4 text-black fw-bold">$49</span></p>
             <p class="text-sm">Premium Feature School ERP, Suitable for School > 500 Students
             </p>
             <div class="card uper_card mt-4 plan-column pink-border rounded shadow text-center">
@@ -260,7 +260,7 @@
 
         </div>
         <div class="col-lg-2 col-black-border">
-            <p class="h6 text-black">InstiKit SaaS <span class="h4 fw-bold">$299</span></p>
+            <p class="h6 text-black">Hnh Tech Solutions SaaS <span class="h4 fw-bold">$299</span></p>
             <p class="text-sm">Limited Feature School ERP, Suitable for School < 100 Students </p>
                     <div class="card uper_card plan-column mt-4 rounded shadow text-center">
                     <p><i class="fa-solid fa-check"></i></p>
