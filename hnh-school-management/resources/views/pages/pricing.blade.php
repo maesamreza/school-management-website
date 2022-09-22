@@ -187,7 +187,7 @@
         <div class="banner">
             <div class="w-100 ms-md-5 pt-5 padding-left">
                 <h1 class="text-white plan-heading text-center text-md-start">Pricing Plan</h1>
-                <p class=" plan-para h5 text-white text-center text-md-start mt-3">Price comparison of Hnh Tech Solutions
+                <p class=" plan-para h5 text-white text-center text-md-start mt-3">Price comparison of Editute
                     Variants</p>
             </div>
             <div class="absolute inset-0 bg-primary mix-blend-multiply" aria-hidden="true"></div>
@@ -198,7 +198,7 @@
     <section>
 
         <div class="w-100 ms-md-5 pt-5">
-            <h1 class="text-center affordable-text">Hnh Tech Solutions is Affordable!</h1>
+            <h1 class="text-center affordable-text">Editute is Affordable!</h1>
             <p class="h5 text-center mt-3 px-1 px-lg-0 affordable-para">We are on a mission to offer best possible School ERP
                 solution at a
                 affordable cost. Check out our pricing.</p>
@@ -206,7 +206,7 @@
         <div class="row justify-content-evenly mt-md-5">
             <div class="col-lg-3 col-md-6 my-2 card rounded-3" style="width: 18rem;">
                 <div class="price-tag  p-3">
-                    <p class="h5 text-black my-2 litetext litetext">Hnh Tech Solutions Lite</p>
+                    <p class="h5 text-black my-2 litetext litetext">Editute Lite</p>
                     <p class="price-tag-text my-2">Limited Feature School ERP, Suitable for School < 100 Students</p>
                             <h1 class="my-4">$0</h1>
                             <div class="d-flex justify-content-around">
@@ -235,7 +235,7 @@
             </div>
             <div class="col-lg-3 col-md-6 my-2 card rounded-3" style="width: 18rem;">
                 <div class="price-tag p-3">
-                    <p class="h5 text-black my-2 litetext">Hnh Tech Solutions Lite</p>
+                    <p class="h5 text-black my-2 litetext">Editute Lite</p>
                     <p class="price-tag-text my-2">Standard Feature School ERP, Suitable for School < 500 Students</p>
                             <h1 class="my-4">$19</h1>
                             <div class="d-flex justify-content-around">
@@ -275,7 +275,7 @@
             </div>
             <div class="col-lg-3 col-md-6 my-2 card rounded-3" style="width: 18rem;">
                 <div class="price-tag p-3">
-                    <p class="h5 text-black my-2 litetext">Hnh Tech Solutions Lite</p>
+                    <p class="h5 text-black my-2 litetext">Editute Lite</p>
                     <p class="price-tag-text my-2">Premium Feature School ERP, Suitable for School > 500 Students</p>
                     <h1 class="my-4">$49</h1>
                     <div class="d-flex justify-content-around">
@@ -327,7 +327,7 @@
             </div>
             <div class="col-lg-3 col-md-6 my-2 card rounded-3" style="width: 18rem;">
                 <div class="price-tag p-3">
-                    <p class="h5 text-black my-2 litetext">Hnh Tech Solutions Lite</p>
+                    <p class="h5 text-black my-2 litetext">Editute Lite</p>
                     <p class="price-tag-text my-2">Multi School ERP SaaS based Solution, Suitable for Resellers</p>
                     <h1 class="my-4">$299</h1>
                     <div class="d-flex justify-content-around">

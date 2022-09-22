@@ -107,7 +107,7 @@
                                 </a>
                             </div>
                             <p class="home_first_section_text mt-4">
-                                Hnh Tech Solutions is a Self Hosted ERP Solution which offers tons of
+                                Editute is a Self Hosted ERP Solution which offers tons of
                                 features to manage your school operation. It reduces the time
                                 needed to put on administrative tasks, thus allowing schools
                                 to focus more on the students & academics and improve overall
@@ -183,7 +183,7 @@
                                 A better way to manage School Operation
                             </h1>
                             <p class="powerful_para text-center mt-3">
-                                Hnh Tech Solutions has curated list of modules, easy to understand & operate, <br> scalable
+                                Editute has curated list of modules, easy to understand & operate, <br> scalable
                                 and well
                                 planned future development roadmap.
                             </p>
@@ -309,7 +309,7 @@
                                     <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Everything You Need</h5>
-                                        <p class="every_card_para">Hnh Tech Solutions covers each & every aspect of school
+                                        <p class="every_card_para">Editute covers each & every aspect of school
                                             operation.
                                             You can manage everything from reception to students & staff to accounting.</p>
 
@@ -319,7 +319,7 @@
                                     <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Accessible for Every Role</h5>
-                                        <p class="every_card_para">Hnh Tech Solutions is designed for different users of the
+                                        <p class="every_card_para">Editute is designed for different users of the
                                             school.
                                             Admin, Staff, Accountant, Student, Parent every one can access ERP.</p>
 
@@ -331,7 +331,7 @@
                                     <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Easy to Use</h5>
-                                        <p class="every_card_para">Hnh Tech Solutions can be set up in few minutes. The
+                                        <p class="every_card_para">Editute can be set up in few minutes. The
                                             super simple &
                                             easy interface helps users to quickly understand & used-to with the ERP.</p>
 
@@ -342,7 +342,7 @@
                                     <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Reliable & Secure</h5>
-                                        <p class="every_card_para">Schools are using Hnh Tech Solutions real-time to manage
+                                        <p class="every_card_para">Schools are using Editute real-time to manage
                                             their
                                             operations for multiple years. It is built with Latest Technology, always
                                             up-to-date.</p>
@@ -355,7 +355,7 @@
                                     <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">White-label & Managed</h5>
-                                        <p class="every_card_para">Hnh Tech Solutions is complete white-label ERP Solution &
+                                        <p class="every_card_para">Editute is complete white-label ERP Solution &
                                             Managed.
                                             Let us take care of technical things while you take care of school operation.
                                         </p>
@@ -367,7 +367,7 @@
                                     <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Affordable</h5>
-                                        <p class="every_card_para">Hnh Tech Solutions offers tons of functionality at very
+                                        <p class="every_card_para">Editute offers tons of functionality at very
                                             affordable
                                             cost. All the versions are available for Lifetime validity on one time purchase.
                                         </p>
@@ -467,7 +467,7 @@
                             <div class="py-5">
                                 <h1 class="text-center convinced_heading">
                                     Convinced? Let's proceed to buy. <br>
-                                    Start using Hnh Tech Solutions today!
+                                    Start using Editute today!
                                 </h1>
                                 <p class="text-center convinced_para mt-4">
                                     We’d love to hear from you. Call 8-3055-7055-8 to get in touch or send <br> us email to

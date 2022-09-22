@@ -150,7 +150,7 @@
                     </h1>
                     <p class="join_para text-center mt-2">
                         If you are an Individual or a Company looking to resell School ERP Solution, then here is <br> why
-                        you should join Hnh Tech Solutions Reseller Program.
+                        you should join Editute Reseller Program.
                     </p>
                 </div>
             </div>
@@ -166,7 +166,7 @@
                 <div class="ms-2">
                     <h5 class="join_card_heading">100% White Label Solution</h5>
                     <p class="mt-2 join_card_para">
-                        Hnh Tech Solutions offers you to resell School ERP Solution with your own brand name & assets.
+                        Editute offers you to resell School ERP Solution with your own brand name & assets.
                     </p>
                 </div>
             </div>

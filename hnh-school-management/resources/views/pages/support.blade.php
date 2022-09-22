@@ -179,7 +179,7 @@
                     <div class="py-5">
                         <h1 class="text-center convinced_heading">
                             Convinced? Let's proceed to buy. <br>
-                            Start using Hnh Tech Solutions today!
+                            Start using Editute today!
                         </h1>
                         <p class="text-center convinced_para mt-4">
                             We’d love to hear from you. Call 8-3055-7055-8 to get in touch or send <br> us email to

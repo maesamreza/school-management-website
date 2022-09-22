@@ -13,7 +13,7 @@
               </a>
             </div>
             <p>
-              Hnh Tech Solutions is registered trademark of ScriptMint.
+              Editute is registered trademark of ScriptMint.
             </p>
             <div class="social-media footer__social mt-30">
               <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -75,7 +75,7 @@
           <div class="col-lg-12">
             <div class="copyright text-center">
               <h5>
-                Copyright@ 2022 <a href="#">Hnh Tech Solutions</a>. All Rights Reserved
+                Copyright@ 2022 <a href="#">Editute</a>. All Rights Reserved
               </h5>
             </div>
           </div>

@@ -5,7 +5,7 @@
           <div class="col-xl-2 col-lg-2 col-5">
             <div class="logo">
               <a href="{{url('/')}}"
-                ><img width="50%" src="{{asset('assets/img/logo/logo1.png')}}" alt=""
+                ><img width="80%" src="{{asset('assets/img/logo/logo1.png')}}" alt=""
               /></a>
             </div>
           </div>
@@ -45,7 +45,7 @@
                                   ></i>
                                 </div>
                                 <h6 class="pro-card-heading">
-                                  InstiKit Lite
+                                  Editute Lite
                                 </h6>
                                 <p
                                   class="text-gray-500 mt-2 pro-card-text text-sm"
@@ -70,7 +70,7 @@
                                   ></i>
                                 </div>
                                 <h6 class="pro-card-heading">
-                                  InstiKit Lite
+                                  Editute Lite
                                 </h6>
                                 <p
                                   class="text-gray-500 mt-2 pro-card-text text-sm"
@@ -95,7 +95,7 @@
                                   ></i>
                                 </div>
                                 <h6 class="pro-card-heading">
-                                  InstiKit Lite
+                                  Editute Lite
                                 </h6>
                                 <p
                                   class="text-gray-500 mt-2 pro-card-text text-sm"
@@ -120,7 +120,7 @@
                                   ></i>
                                 </div>
                                 <h6 class="pro-card-heading">
-                                  InstiKit Lite
+                                  Editute Lite
                                 </h6>
                                 <p
                                   class="text-gray-500 mt-2 pro-card-text text-sm"
