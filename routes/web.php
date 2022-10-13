@@ -20,3 +20,8 @@ Route::view('/support', 'pages.support');
 Route::view('/contact', 'pages.contact');
 Route::view('/reseller', 'pages.reseller');
 Route::view('/comparison', 'pages.comparison');
+Route::view('/faq', 'pages.faq');
+Route::view('/terms-of-use', 'pages.terms-of-use');
+Route::view('/privacy-policy', 'pages.privacy-policy');
+Route::view('/refund-policy', 'pages.refund-policy');
+Route::view('/aboutus', 'pages.aboutus');

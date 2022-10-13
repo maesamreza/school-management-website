@@ -313,3 +313,9 @@
 .padding-left{
     padding: 8px;
 }
+.navbar-nav > .nav-item .active{
+    color: #0951CC !important;
+}
+.navbar-nav > .nav-item .active:active{
+    color: #0951CC !important;
+}

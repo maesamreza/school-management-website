@@ -13,13 +13,12 @@
               </a>
             </div>
             <p>
-              Editute is registered trademark of ScriptMint.
+              Editute is registered trademark of HNH TECH SOLUTIONS.
             </p>
             <div class="social-media footer__social mt-30">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              <a href="https://m.facebook.com/profile.php?id=100086760579455&sk=followers"><i class="fab fa-facebook-f"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/company/editute"><i class="fab fa-linkedin-in"></i></a>
+              <a target="_blank" href="https://instagram.com/editute.official?igshid=YmMyMTA2M2Y=/"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
         </div>
@@ -30,9 +29,9 @@
           <div class="footer__widget mb-30 pl-40 pl-md-0 pl-xs-0">
             <h6 class="widget-title mb-35">COMPANY</h6>
             <ul class="fot-list">
-              <li><a href="#">About</a></li>
-              <li><a href="#">FAQ              </a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="{{url('aboutus')}}">About</a></li>
+              <li><a href="{{url('faq')}}">FAQ</a></li>
+              <li><a href="{{url('contact')}}">Contact</a></li>
               {{-- <li><a href="#">Privacy Policy</a></li>
               <li><a href="contact.html">Contacts</a></li>
               <li><a href="#">Our Careers</a></li> --}}
@@ -46,9 +45,9 @@
           <div class="footer__widget mb-25 pl-90 pl-md-0 pl-xs-0">
             <h6 class="widget-title mb-35">LEGAL</h6>
             <ul class="fot-list">
-              <li><a href="about.html">Terms of Use</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Refund Policy</a></li>
+              <li><a href="{{url('terms-of-use')}}">Terms of Use</a></li>
+              <li><a href="{{url('privacy-policy')}}">Privacy Policy</a></li>
+              <li><a href="{{url('refund-policy')}}">Refund Policy</a></li>
               {{-- <li><a href="#">Destinations</a></li>   --}}
             </ul>
           </div>
@@ -60,10 +59,10 @@
           <div class="footer__widget mb-30 pl-150 pl-lg-0 pl-md-0 pl-xs-0">
             <h6 class="widget-title mb-35">Features</h6>
             <ul class="fot-list mb-30">
-              <li><a href="index.html">Home Page</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="blog.html">Latest News</a></li>
-              <li><a href="#">Help Center</a></li>
+              <li><a href="{{url('feature-request')}}">Feature-Request</a></li>
+              <li><a href="{{url('support')}}">Support</a></li>
+              <li><a href="{{url('reseller')}}">Reseller</a></li>
+              {{-- <li><a href="#">Help Center</a></li> --}}
             </ul>
           </div>
         </div>

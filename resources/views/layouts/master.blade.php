@@ -84,6 +84,7 @@
     <script src="{{ asset('assets/js/jquery.easypiechart.js') }}"></script>
     <script src="{{ asset('assets/js/plugins.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/custom.js')}}"></script>
     <script src="https://kit.fontawesome.com/335384db5e.js" crossorigin="anonymous"></script>
 </body>
 

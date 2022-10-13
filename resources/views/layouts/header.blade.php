@@ -11,8 +11,7 @@
           </div>
           <div class="col-xl-7 col-lg-8 d-none d-lg-block">
             <nav
-              class="main-menu navbar navbar-expand-lg justify-content-center"
-            >
+              class="main-menu navbar navbar-expand-lg justify-content-center">
               <div class="nav-container">
                 <div
                   class="collapse navbar-collapse"
@@ -269,10 +268,10 @@
         <li class="has-dropdown">
           <a href="index.html">Products</a>
           <ul class="sub-menu">
-            <li><a href="{{('/comparison')}}">InstiKit Lite</a></li>
-            <li><a href="{{('/comparison')}}">InstiKit Lite</a></li>
-            <li><a href="{{('/comparison')}}">InstiKit Lite</a></li>
-            <li><a href="{{('/comparison')}}">InstiKit Lite</a></li>
+            <li><a href="{{('/comparison')}}">Editute Lite</a></li>
+            <li><a href="{{('/comparison')}}">Editute Lite</a></li>
+            <li><a href="{{('/comparison')}}">Editute Lite</a></li>
+            <li><a href="{{('/comparison')}}">Editute Lite</a></li>
           </ul>
         </li>
         <li><a href="{{url('pricing')}}">Pricing</a></li>

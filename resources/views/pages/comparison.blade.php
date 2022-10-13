@@ -167,10 +167,10 @@
 
     <div class="banner">
         <div class="w-100 ms-md-5 pt-5 padding-left">
-            <h1 class="variants text-white text-center text-md-start">
+            <h1 class="variants text-white px-3 text-md-start">
                 Editute Variants
             </h1>
-            <p class="h6 text-white text-center variants-tag-line text-md-start mt-3">Detailed comparison between Editute Variants</p>
+            <p class="h6 text-white px-3 variants-tag-line text-md-start mt-3">Detailed comparison between Editute Variants</p>
         </div>
         <div class="absolute inset-0 bg-primary mix-blend-multiply" aria-hidden="true"></div>
     </div>

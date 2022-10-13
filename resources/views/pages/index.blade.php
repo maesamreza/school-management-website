@@ -307,7 +307,7 @@
 
                             <div class="row my-5">
                                 <div class="col-lg-6 my-4 d-flex align-items-start">
-                                    <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
+                                    <img width="50px" src="{{ asset('assets/img/icons/Icons-01.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Everything You Need</h5>
                                         <p class="every_card_para">Editute covers each & every aspect of school
@@ -317,7 +317,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 my-4 d-flex align-items-start">
-                                    <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
+                                    <img width="50px" src="{{ asset('assets/img/icons/Icons-02.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Accessible for Every Role</h5>
                                         <p class="every_card_para">Editute is designed for different users of the
@@ -329,7 +329,7 @@
 
 
                                 <div class="col-lg-6 my-4 d-flex align-items-start">
-                                    <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
+                                    <img width="50px" src="{{ asset('assets/img/icons/Icons-03.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Easy to Use</h5>
                                         <p class="every_card_para">Editute can be set up in few minutes. The
@@ -340,7 +340,7 @@
                                 </div>
 
                                 <div class="col-lg-6 my-4 d-flex align-items-start">
-                                    <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
+                                    <img width="50px" src="{{ asset('assets/img/icons/Icons-04.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Reliable & Secure</h5>
                                         <p class="every_card_para">Schools are using Editute real-time to manage
@@ -353,7 +353,7 @@
 
 
                                 <div class="col-lg-6 my-4 d-flex align-items-start">
-                                    <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
+                                    <img width="50px" src="{{ asset('assets/img/icons/Icons-05.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">White-label & Managed</h5>
                                         <p class="every_card_para">Editute is complete white-label ERP Solution &
@@ -365,7 +365,7 @@
                                 </div>
 
                                 <div class="col-lg-6 my-4 d-flex align-items-start">
-                                    <img src="{{ asset('assets/img/chose/03.png') }}" alt="">
+                                    <img width="50px" src="{{ asset('assets/img/icons/Icons-06.png') }}" alt="">
                                     <div class="ms-2">
                                         <h5 class="mb-2 every_card_heading">Affordable</h5>
                                         <p class="every_card_para">Editute offers tons of functionality at very
@@ -471,8 +471,8 @@
                                     Start using Editute today!
                                 </h1>
                                 <p class="text-center convinced_para mt-4">
-                                    We’d love to hear from you. Call 8-3055-7055-8 to get in touch or send <br> us email to
-                                    hello@scriptmint.com
+                                    We’d love to hear from you. Call 021 37459970 to get in touch or send <br> us email to
+                                    Info@editute.com
                                 </p>
                             <a href="{{('/pricing')}}">
                                 <button class="convinced_btn mb-3 mt-5">
@@ -681,8 +681,8 @@
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="{{ asset('assets/img/home-page-slider/Admission List.png') }}"
-                                        class="d-block w-100" alt="...">
+                                    <img  src="{{ asset('assets/img/home-page-slider/Admission List.png') }}"
+                                        class="d-block" alt="...">
                                 </div>
                                 <div class="carousel-item">
                                     <img src="{{ asset('assets/img/home-page-slider/Dashboard.png') }}"
@@ -769,9 +769,9 @@
                     </div>
 
                     <!-- Modal footer -->
-                    <div class="modal-footer">
-                        <button type="button" class="cre_btn border-0" data-bs-dismiss="modal">Close</button>
-                    </div>
+                        {{-- <div class="modal-footer">
+                            <button type="button" class="cre_btn border-0" data-bs-dismiss="modal">Close</button>
+                        </div> --}}
 
                 </div>
             </div>
