@@ -88,7 +88,7 @@
                                 School ERP Solution
                             </h1>
                             <div class="d-flex flex-wrap mt-4">
-                                <a href="{{ '/pricing' }}">
+                                <a href="{{ '/comparison' }}">
                                     <button class="buy_btn border-0 mt-2">Buy Now</button>
                                 </a>
                                 <a target="_blank" href="{{ url('https://school.hnhtechsolutions.com/login') }}">

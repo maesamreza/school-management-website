@@ -163,9 +163,9 @@
                     <div class="right-nav d-flex align-items-center justify-content-end">
                         <div class="right-btn mr-25 mr-xs-15">
                             <ul class="d-flex align-items-center mt-2">
-                                <li>
+                                {{-- <li>
                                     <a href="#" class="theme_btn free_btn">Register</a>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <a href="#" class="theme_btn free_btn ml-5">Login</a>
                                 </li>
