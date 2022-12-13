@@ -8,7 +8,7 @@
         >
           <div class="footer__widget mb-30">
             <div class="footer-log mb-20">
-              <a href="index.html" class="logo">
+              <a class="logo">
                 <img width="70%" src="{{asset('assets/img/logo/logo1.png')}}" alt="" />
               </a>
             </div>

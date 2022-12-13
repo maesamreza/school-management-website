@@ -185,7 +185,7 @@
                             We’d love to hear from you. Call 8-3055-7055-8 to get in touch or send <br> us email to
                             hello@scriptmint.com
                         </p>
-                        <a href="{{('/pricing')}}">
+                        <a href="{{('/comparison')}}">
                         <button class="convinced_btn mb-3 mt-5">
                             Buy Now!
                         </button>

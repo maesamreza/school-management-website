@@ -474,7 +474,7 @@
                                     We’d love to hear from you. Call 021 37459970 to get in touch or send <br> us email to
                                     Info@editute.com
                                 </p>
-                            <a href="{{('/pricing')}}">
+                            <a href="{{('/comparison')}}">
                                 <button class="convinced_btn mb-3 mt-5">
                                     Buy Now!
                                 </button>
